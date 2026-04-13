@@ -1,9 +1,0 @@
-<step title="Incoming Request" date="2026-04-13T21:37:59.619" instance="9bb9f0" url="/api/deployments/latest?deployer=OneDeploy&amp;time=2026-04-13_21-32-18Z" method="GET" type="request" pid="770,1,16" Host="fabric-poc-api-d2bfbvbfa9e6emay.scm.eastus-01.azurewebsites.net" User-Agent="GITHUBACTIONS_DeployWebAppToAzure_8e01c943f0d9e21dc1913217a153a0a03fba20136e907dbe3ab8b9491437d2bf_v3.0.8" Authorization="Bas..." Content-Type="application/json; charset=utf-8" Cookie="ARRAffinity=9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d;Path=/;HttpOnly;Secure;Domain=fabric-poc-api-d2bfbvbfa9e6emay.scm.eastus-01.azurewebsites.net; ARRAffinitySameSite=9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d;Path=/;HttpOnly;SameSite=None;Secure;Domain=fabric-poc-api-d2bfbvbfa9e6emay.scm.eastus-01.azurewebsites.net" Content-Length="0" X-ARR-LOG-ID="d5f391ba-fa4d-4278-b29e-78ed6bf0bafb" CLIENT-IP="172.183.131.17:40982" X-SITE-DEPLOYMENT-ID="fabric-poc-api" WAS-DEFAULT-HOSTNAME="fabric-poc-api-d2bfbvbfa9e6emay.scm.eastus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=OneDeploy&amp;time=2026-04-13_21-32-18Z" X-Client-IP="172.183.131.17" X-Client-Port="40982" >
-  <step title="Cleanup Xml Logs" date="2026-04-13T21:37:59.659" /><!-- duration: 52ms -->
-  <step title="DeploymentService.GetResult" date="2026-04-13T21:37:59.781" >
-    <step title="DeploymentService.GetLatestDeployment" date="2026-04-13T21:37:59.791" >
-      <step title="DeploymentManager.GetResults" date="2026-04-13T21:37:59.819" /><!-- duration: 669ms -->
-    </step><!-- duration: 724ms -->
-  </step><!-- duration: 738ms -->
-  <step title="Outgoing response" date="2026-04-13T21:38:00.536" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 33ms -->
-</step><!-- duration: 954ms -->

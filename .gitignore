@@ -28,6 +28,12 @@ Thumbs.db
 backend/output/
 backend/uploads/
 
+# Logs & temp files
+applogs/
+applogs.zip
+*.zip
+logs*.zip
+
 # Deploy artifacts
 deploy.zip
 deploy_flat.zip
