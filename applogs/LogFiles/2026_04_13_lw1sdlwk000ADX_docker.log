@@ -1,0 +1,811 @@
+2026-04-13T20:38:48.2663518Z State: Starting, Action: EstablishingSiteNetworks, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-04-13T20:38:55.5016525Z State: Starting, Action: StartingSiteContainers, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: , DetailsLevel: INFO
+2026-04-13T20:38:55.5554454Z Container start method called.
+2026-04-13T20:38:55.6692062Z State: Starting, Action: PullingImage, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pulling image 10.1.0.6:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:38:55.6713413Z Establishing network.
+2026-04-13T20:38:55.6716110Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T20:39:28.2118958Z Container is starting.
+2026-04-13T20:39:28.2715786Z State: Starting, Action: MountingVolumes, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:39:28.2721183Z Establishing user namespace if not established already.
+2026-04-13T20:39:28.2907845Z Establishing network if not established already.
+2026-04-13T20:39:28.2910315Z Mounting volumes.
+2026-04-13T20:39:28.3495895Z Nested mountpoint 
+2026-04-13T20:39:28.5456002Z Nested mountpoint volatile/logs
+2026-04-13T20:39:28.6075226Z Nested mountpoint 
+2026-04-13T20:39:29.0938255Z Nested mountpoint 
+2026-04-13T20:39:29.1121176Z Nested mountpoint 
+2026-04-13T20:39:30.4593416Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T20:39:30.4600038Z Creating container.
+2026-04-13T20:39:30.4884291Z Creating pipes for streaming container io.
+2026-04-13T20:39:30.4888992Z Creating stdout named pipe at /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stdout_2ef3e0f96beb4abea7e346512757bc20.
+2026-04-13T20:39:30.5342555Z Successfully created stdout named pipe at: /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stdout_2ef3e0f96beb4abea7e346512757bc20.
+2026-04-13T20:39:30.5347138Z Opening named pipe /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stdout_2ef3e0f96beb4abea7e346512757bc20 for reading in non-blocking mode.
+2026-04-13T20:39:30.5360711Z Successfully opened named pipe: /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stdout_2ef3e0f96beb4abea7e346512757bc20.
+2026-04-13T20:39:30.5727787Z Successfully removed non-blocking flag from /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stdout_2ef3e0f96beb4abea7e346512757bc20.
+2026-04-13T20:39:30.5927816Z Creating stderr named pipe at /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stderr_3a409a0da11048f0ab1ab5b7c63720d5.
+2026-04-13T20:39:30.6037528Z Successfully created stderr named pipe at: /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stderr_3a409a0da11048f0ab1ab5b7c63720d5.
+2026-04-13T20:39:30.6118767Z Opening named pipe /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stderr_3a409a0da11048f0ab1ab5b7c63720d5 for reading in non-blocking mode.
+2026-04-13T20:39:30.6137834Z Successfully opened named pipe: /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stderr_3a409a0da11048f0ab1ab5b7c63720d5.
+2026-04-13T20:39:30.6141618Z Successfully removed non-blocking flag from /podr/container/pipe/168c76c4b2c5_fabric-poc-api/stderr_3a409a0da11048f0ab1ab5b7c63720d5.
+2026-04-13T20:39:30.6305375Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T20:39:32.1437479Z Container get mounts received unexpected exception.
+2026-04-13T20:39:34.8728798Z Starting container: 168c76c4b2c5_fabric-poc-api.
+2026-04-13T20:39:35.3384286Z Starting watchers and probes.
+2026-04-13T20:39:35.3600441Z Starting metrics collection.
+2026-04-13T20:39:35.3691276Z Container is running.
+2026-04-13T20:39:35.3693263Z State: Starting, Action: CreatingContainer, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:39:35.8674075Z Container start method finished after 40262 ms.
+2026-04-13T20:39:35.8965011Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:39:36.0469489Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T20:41:22.1593716Z Container has finished running with exit code: 2.
+2026-04-13T20:41:22.2744855Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T20:41:22.3856456Z Stop and delete container. Retry count = 0
+2026-04-13T20:41:22.3968117Z Stopping container: 168c76c4b2c5_fabric-poc-api.
+2026-04-13T20:41:22.9264536Z Deleting container: 168c76c4b2c5_fabric-poc-api. Retry count = 0
+2026-04-13T20:41:24.1500410Z Container spec TerminationMessagePolicy  path 
+2026-04-13T20:41:24.2204398Z Container is terminated. Total time elapsed: 1909 ms.
+2026-04-13T20:41:24.2212526Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T20:41:24.2673215Z State: Stopping, Action: CancellingStartup, LastError: , LastErrorTimestamp: 01/01/0001 00:00:00, LastErrorDetails: , Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:41:24.6350471Z Site startup probe failed after 108.2185212 seconds.
+2026-04-13T20:41:25.4649502Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:41:25.5791327Z Failed to start site. Revert by stopping site.
+2026-04-13T20:41:25.6625096Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:41:25.7207317Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:41:25.7673009Z Site: fabric-poc-api stopped.
+2026-04-13T20:41:25.8999237Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:41:27.5010909Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:41:28.9418704Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:41:28 (UTC), DetailsLevel: ERR
+2026-04-13T20:41:30.9417781Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:41:28 (UTC), DetailsLevel: ERR
+2026-04-13T20:41:34.1883177Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:41:28 (UTC), DetailsLevel: ERR
+2026-04-13T20:41:40.5190659Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:41:28 (UTC), DetailsLevel: ERR
+2026-04-13T20:41:40.5468916Z Container start method called.
+2026-04-13T20:41:40.5471719Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:41:40.5488011Z Establishing network.
+2026-04-13T20:41:40.5490461Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T20:42:19.7066192Z Container is starting.
+2026-04-13T20:42:19.7575834Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:42:19.7581880Z Establishing user namespace if not established already.
+2026-04-13T20:42:19.7590834Z Establishing network if not established already.
+2026-04-13T20:42:19.7681221Z Mounting volumes.
+2026-04-13T20:42:19.7689313Z Nested mountpoint 
+2026-04-13T20:42:19.8911640Z Nested mountpoint volatile/logs
+2026-04-13T20:42:19.9874672Z Nested mountpoint 
+2026-04-13T20:42:19.9902386Z Nested mountpoint 
+2026-04-13T20:42:20.0691215Z Nested mountpoint 
+2026-04-13T20:42:21.7653072Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T20:42:21.7932132Z Creating container.
+2026-04-13T20:42:21.7938514Z Creating pipes for streaming container io.
+2026-04-13T20:42:21.7957688Z Creating stdout named pipe at /podr/container/pipe/23af5c1caa02_fabric-poc-api/stdout_9975be71aecd41f886abca9329811105.
+2026-04-13T20:42:21.8041486Z Successfully created stdout named pipe at: /podr/container/pipe/23af5c1caa02_fabric-poc-api/stdout_9975be71aecd41f886abca9329811105.
+2026-04-13T20:42:21.8051042Z Opening named pipe /podr/container/pipe/23af5c1caa02_fabric-poc-api/stdout_9975be71aecd41f886abca9329811105 for reading in non-blocking mode.
+2026-04-13T20:42:21.8054608Z Successfully opened named pipe: /podr/container/pipe/23af5c1caa02_fabric-poc-api/stdout_9975be71aecd41f886abca9329811105.
+2026-04-13T20:42:21.8146167Z Successfully removed non-blocking flag from /podr/container/pipe/23af5c1caa02_fabric-poc-api/stdout_9975be71aecd41f886abca9329811105.
+2026-04-13T20:42:21.8533931Z Creating stderr named pipe at /podr/container/pipe/23af5c1caa02_fabric-poc-api/stderr_df9ee029a46347ff980497460e71e4ce.
+2026-04-13T20:42:21.8554459Z Successfully created stderr named pipe at: /podr/container/pipe/23af5c1caa02_fabric-poc-api/stderr_df9ee029a46347ff980497460e71e4ce.
+2026-04-13T20:42:21.8557621Z Opening named pipe /podr/container/pipe/23af5c1caa02_fabric-poc-api/stderr_df9ee029a46347ff980497460e71e4ce for reading in non-blocking mode.
+2026-04-13T20:42:21.8938863Z Successfully opened named pipe: /podr/container/pipe/23af5c1caa02_fabric-poc-api/stderr_df9ee029a46347ff980497460e71e4ce.
+2026-04-13T20:42:21.8952763Z Successfully removed non-blocking flag from /podr/container/pipe/23af5c1caa02_fabric-poc-api/stderr_df9ee029a46347ff980497460e71e4ce.
+2026-04-13T20:42:21.8959186Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T20:42:25.7265227Z Starting container: 23af5c1caa02_fabric-poc-api.
+2026-04-13T20:42:26.2343905Z Starting watchers and probes.
+2026-04-13T20:42:26.3037795Z Starting metrics collection.
+2026-04-13T20:42:26.3041203Z Container is running.
+2026-04-13T20:42:26.3042774Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:42:29.2202338Z Container start method finished after 48476 ms.
+2026-04-13T20:42:29.2308484Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:42:29.2309149Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T20:44:44.6063869Z Container has finished running with exit code: 127.
+2026-04-13T20:44:44.6076244Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T20:44:44.6173195Z Stop and delete container. Retry count = 0
+2026-04-13T20:44:44.6175082Z Stopping container: 23af5c1caa02_fabric-poc-api.
+2026-04-13T20:44:44.8812954Z Deleting container: 23af5c1caa02_fabric-poc-api. Retry count = 0
+2026-04-13T20:44:45.7937205Z Container spec TerminationMessagePolicy  path 
+2026-04-13T20:44:45.7948328Z Container is terminated. Total time elapsed: 1186 ms.
+2026-04-13T20:44:45.8010896Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T20:44:45.8015655Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:41:25, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:44:45.8134659Z Site startup probe failed after 136.4421436 seconds.
+2026-04-13T20:44:46.0902761Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:44:46.0921197Z Failed to start site. Revert by stopping site.
+2026-04-13T20:44:46.0922572Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:44:46.0925331Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:44:46.0925536Z Site: fabric-poc-api stopped.
+2026-04-13T20:44:46.1110609Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:44:46.9743918Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:44:47.2731536Z Site: fabric-poc-api will be blocked for 1 minutes till 04/13/2026 20:45:47
+2026-04-13T20:44:47.2734262Z State: Blocked, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site: fabric-poc-api will be blocked for 1 minutes till 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:44:47.3502897Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:44:47 (UTC), DetailsLevel: WARN
+2026-04-13T20:44:48.0251747Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:44:47 (UTC), DetailsLevel: WARN
+2026-04-13T20:44:48.7704592Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:44:48.7705359Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:44:51.3460483Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:44:51.3461142Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:44:53.2992413Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:44:53.3003730Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:44:55.2437101Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:44:55.2440890Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:44:58.4622386Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:44:58.4622873Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:03.7559508Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:03.7561549Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:09.0102854Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:09.0103536Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:14.3983535Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:14.3983914Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:19.6489332Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:19.6492428Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:25.0226583Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:25.0227070Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:30.3403902Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:30.3508389Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:35.6564665Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:35.6565209Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:41.0882158Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:41.0887840Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:46.3404195Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:46.3404946Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:45:47.2756124Z Site: fabric-poc-api is unblocked.
+2026-04-13T20:45:51.7747928Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:55.0998394Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:45:47, DetailsLevel: WARN
+2026-04-13T20:45:55.1003541Z Container start method called.
+2026-04-13T20:45:55.1004716Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:45:55.1006869Z Establishing network.
+2026-04-13T20:45:55.1009087Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T20:46:29.5771204Z Container is starting.
+2026-04-13T20:46:29.5844507Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:46:29.5853340Z Establishing user namespace if not established already.
+2026-04-13T20:46:29.5857476Z Establishing network if not established already.
+2026-04-13T20:46:29.5861084Z Mounting volumes.
+2026-04-13T20:46:29.5866699Z Nested mountpoint 
+2026-04-13T20:46:29.6159934Z Nested mountpoint volatile/logs
+2026-04-13T20:46:29.7680319Z Nested mountpoint 
+2026-04-13T20:46:29.7782518Z Nested mountpoint 
+2026-04-13T20:46:29.9555624Z Nested mountpoint 
+2026-04-13T20:46:32.1445715Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T20:46:32.1449942Z Creating container.
+2026-04-13T20:46:32.1451853Z Creating pipes for streaming container io.
+2026-04-13T20:46:32.1521164Z Creating stdout named pipe at /podr/container/pipe/6b05061a9d07_fabric-poc-api/stdout_eefec96d84ec4a028122b66ae0cd364a.
+2026-04-13T20:46:32.1648978Z Successfully created stdout named pipe at: /podr/container/pipe/6b05061a9d07_fabric-poc-api/stdout_eefec96d84ec4a028122b66ae0cd364a.
+2026-04-13T20:46:32.1720746Z Opening named pipe /podr/container/pipe/6b05061a9d07_fabric-poc-api/stdout_eefec96d84ec4a028122b66ae0cd364a for reading in non-blocking mode.
+2026-04-13T20:46:32.1726839Z Successfully opened named pipe: /podr/container/pipe/6b05061a9d07_fabric-poc-api/stdout_eefec96d84ec4a028122b66ae0cd364a.
+2026-04-13T20:46:32.1736182Z Successfully removed non-blocking flag from /podr/container/pipe/6b05061a9d07_fabric-poc-api/stdout_eefec96d84ec4a028122b66ae0cd364a.
+2026-04-13T20:46:32.1837131Z Creating stderr named pipe at /podr/container/pipe/6b05061a9d07_fabric-poc-api/stderr_761374bdea8c4b21a58d0fff3a6bd6db.
+2026-04-13T20:46:32.1846443Z Successfully created stderr named pipe at: /podr/container/pipe/6b05061a9d07_fabric-poc-api/stderr_761374bdea8c4b21a58d0fff3a6bd6db.
+2026-04-13T20:46:32.1939386Z Opening named pipe /podr/container/pipe/6b05061a9d07_fabric-poc-api/stderr_761374bdea8c4b21a58d0fff3a6bd6db for reading in non-blocking mode.
+2026-04-13T20:46:32.1945480Z Successfully opened named pipe: /podr/container/pipe/6b05061a9d07_fabric-poc-api/stderr_761374bdea8c4b21a58d0fff3a6bd6db.
+2026-04-13T20:46:32.2219952Z Successfully removed non-blocking flag from /podr/container/pipe/6b05061a9d07_fabric-poc-api/stderr_761374bdea8c4b21a58d0fff3a6bd6db.
+2026-04-13T20:46:32.2344220Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T20:46:34.6389099Z Starting container: 6b05061a9d07_fabric-poc-api.
+2026-04-13T20:46:34.9132557Z Starting watchers and probes.
+2026-04-13T20:46:34.9312715Z Starting metrics collection.
+2026-04-13T20:46:34.9334356Z Container is running.
+2026-04-13T20:46:34.9335851Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:46:36.6881974Z Container start method finished after 41587 ms.
+2026-04-13T20:46:36.7168035Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:46:36.7175326Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T20:48:20.0283317Z Container has finished running with exit code: 2.
+2026-04-13T20:48:20.0582119Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T20:48:20.0692424Z Stop and delete container. Retry count = 0
+2026-04-13T20:48:20.0795146Z Stopping container: 6b05061a9d07_fabric-poc-api.
+2026-04-13T20:48:20.3972823Z Deleting container: 6b05061a9d07_fabric-poc-api. Retry count = 0
+2026-04-13T20:48:21.8764124Z Container spec TerminationMessagePolicy  path 
+2026-04-13T20:48:21.9672475Z Container is terminated. Total time elapsed: 1889 ms.
+2026-04-13T20:48:21.9754268Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T20:48:22.0376914Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:44:46, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:48:22.1582968Z Site startup probe failed after 105.3912126 seconds.
+2026-04-13T20:48:24.1143603Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:48:24.1813957Z Failed to start site. Revert by stopping site.
+2026-04-13T20:48:24.1886106Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:48:24.1921625Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:48:24.1924103Z Site: fabric-poc-api stopped.
+2026-04-13T20:48:24.3147768Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:48:25.8168002Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:48:27.2143677Z Site: fabric-poc-api will be blocked for 1 minutes till 04/13/2026 20:49:27
+2026-04-13T20:48:27.2539799Z State: Blocked, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site: fabric-poc-api will be blocked for 1 minutes till 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:48:27.2679841Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:48:27 (UTC), DetailsLevel: WARN
+2026-04-13T20:48:28.8453522Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:48:27 (UTC), DetailsLevel: WARN
+2026-04-13T20:48:30.9268756Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:48:30.9269327Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:48:33.9951431Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:48:34.0127833Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:48:39.5808187Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:48:39.5813402Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:48:45.1095335Z State: Blocked, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:48:45.1095692Z Start site prohibitted because the site is being blocked.
+2026-04-13T20:49:27.2612143Z Site: fabric-poc-api is unblocked.
+2026-04-13T20:49:40.2074389Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:49:48.4278357Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:49:27, DetailsLevel: WARN
+2026-04-13T20:49:48.4280421Z Container start method called.
+2026-04-13T20:49:48.4281181Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:49:48.4282929Z Establishing network.
+2026-04-13T20:49:48.4284887Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T20:50:21.6434805Z Container is starting.
+2026-04-13T20:50:21.6530166Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:50:21.6533921Z Establishing user namespace if not established already.
+2026-04-13T20:50:21.6535967Z Establishing network if not established already.
+2026-04-13T20:50:21.6607930Z Mounting volumes.
+2026-04-13T20:50:21.6835297Z Nested mountpoint 
+2026-04-13T20:50:21.8322910Z Nested mountpoint volatile/logs
+2026-04-13T20:50:21.8837088Z Nested mountpoint 
+2026-04-13T20:50:21.9350715Z Nested mountpoint 
+2026-04-13T20:50:22.1627850Z Nested mountpoint 
+2026-04-13T20:50:23.4581513Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T20:50:23.4585852Z Creating container.
+2026-04-13T20:50:23.4587880Z Creating pipes for streaming container io.
+2026-04-13T20:50:23.4590017Z Creating stdout named pipe at /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stdout_af80876f07bb489d99d160040bd79a33.
+2026-04-13T20:50:23.5019599Z Successfully created stdout named pipe at: /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stdout_af80876f07bb489d99d160040bd79a33.
+2026-04-13T20:50:23.5402913Z Opening named pipe /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stdout_af80876f07bb489d99d160040bd79a33 for reading in non-blocking mode.
+2026-04-13T20:50:23.5413319Z Successfully opened named pipe: /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stdout_af80876f07bb489d99d160040bd79a33.
+2026-04-13T20:50:23.5489669Z Successfully removed non-blocking flag from /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stdout_af80876f07bb489d99d160040bd79a33.
+2026-04-13T20:50:23.5509218Z Creating stderr named pipe at /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stderr_1c5d5cff57aa424591c4e853abd09021.
+2026-04-13T20:50:23.5786074Z Successfully created stderr named pipe at: /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stderr_1c5d5cff57aa424591c4e853abd09021.
+2026-04-13T20:50:23.5798553Z Opening named pipe /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stderr_1c5d5cff57aa424591c4e853abd09021 for reading in non-blocking mode.
+2026-04-13T20:50:23.5813841Z Successfully opened named pipe: /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stderr_1c5d5cff57aa424591c4e853abd09021.
+2026-04-13T20:50:23.5990580Z Successfully removed non-blocking flag from /podr/container/pipe/ac714d3d9e81_fabric-poc-api/stderr_1c5d5cff57aa424591c4e853abd09021.
+2026-04-13T20:50:23.6009207Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T20:50:25.5607353Z Starting container: ac714d3d9e81_fabric-poc-api.
+2026-04-13T20:50:26.1496045Z Starting watchers and probes.
+2026-04-13T20:50:26.2293911Z Starting metrics collection.
+2026-04-13T20:50:26.2389924Z Container is running.
+2026-04-13T20:50:26.2488190Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:50:26.8707617Z Container start method finished after 38442 ms.
+2026-04-13T20:50:26.8710838Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:50:26.8711253Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T20:51:41.9210350Z Container has finished running with exit code: 2.
+2026-04-13T20:51:41.9214891Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T20:51:41.9814959Z Stop and delete container. Retry count = 0
+2026-04-13T20:51:41.9816897Z Stopping container: ac714d3d9e81_fabric-poc-api.
+2026-04-13T20:51:42.2191295Z Deleting container: ac714d3d9e81_fabric-poc-api. Retry count = 0
+2026-04-13T20:51:43.0115970Z Container spec TerminationMessagePolicy  path 
+2026-04-13T20:51:43.0196274Z Container is terminated. Total time elapsed: 1097 ms.
+2026-04-13T20:51:43.0201538Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T20:51:43.0700756Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:48:24, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:51:43.1085453Z Site startup probe failed after 76.2364703 seconds.
+2026-04-13T20:51:43.8411765Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:51:43.9515440Z Failed to start site. Revert by stopping site.
+2026-04-13T20:51:43.9616452Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:51:43.9712292Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:51:43.9712843Z Site: fabric-poc-api stopped.
+2026-04-13T20:53:10.0488054Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:53:45, DetailsLevel: WARN
+2026-04-13T20:53:19.6613741Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site is blocked due to multiple, consecutive cold start failures. Site scheduled to be unblocked at 04/13/2026 20:53:45, DetailsLevel: WARN
+2026-04-13T20:53:19.6707540Z Container start method called.
+2026-04-13T20:53:19.6800519Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.6:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:53:19.6826480Z Establishing network.
+2026-04-13T20:53:19.6917556Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T20:54:06.5165995Z Container is starting.
+2026-04-13T20:54:06.5461691Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:54:06.5466850Z Establishing user namespace if not established already.
+2026-04-13T20:54:06.5468841Z Establishing network if not established already.
+2026-04-13T20:54:06.5470837Z Mounting volumes.
+2026-04-13T20:54:06.5578267Z Nested mountpoint 
+2026-04-13T20:54:06.6878986Z Nested mountpoint volatile/logs
+2026-04-13T20:54:06.8469792Z Nested mountpoint 
+2026-04-13T20:54:07.0679917Z Nested mountpoint 
+2026-04-13T20:54:08.1714686Z Nested mountpoint 
+2026-04-13T20:54:11.1184397Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T20:54:11.1188302Z Creating container.
+2026-04-13T20:54:11.1190290Z Creating pipes for streaming container io.
+2026-04-13T20:54:11.2191350Z Creating stdout named pipe at /podr/container/pipe/03daf2399006_fabric-poc-api/stdout_c341bb84afee4421b915e6efb71e2410.
+2026-04-13T20:54:11.2282781Z Successfully created stdout named pipe at: /podr/container/pipe/03daf2399006_fabric-poc-api/stdout_c341bb84afee4421b915e6efb71e2410.
+2026-04-13T20:54:11.2284856Z Opening named pipe /podr/container/pipe/03daf2399006_fabric-poc-api/stdout_c341bb84afee4421b915e6efb71e2410 for reading in non-blocking mode.
+2026-04-13T20:54:11.2286868Z Successfully opened named pipe: /podr/container/pipe/03daf2399006_fabric-poc-api/stdout_c341bb84afee4421b915e6efb71e2410.
+2026-04-13T20:54:11.2288483Z Successfully removed non-blocking flag from /podr/container/pipe/03daf2399006_fabric-poc-api/stdout_c341bb84afee4421b915e6efb71e2410.
+2026-04-13T20:54:11.2591618Z Creating stderr named pipe at /podr/container/pipe/03daf2399006_fabric-poc-api/stderr_2b90ed734e754f2b9ca6d51420813ae1.
+2026-04-13T20:54:11.3494556Z Successfully created stderr named pipe at: /podr/container/pipe/03daf2399006_fabric-poc-api/stderr_2b90ed734e754f2b9ca6d51420813ae1.
+2026-04-13T20:54:11.3498684Z Opening named pipe /podr/container/pipe/03daf2399006_fabric-poc-api/stderr_2b90ed734e754f2b9ca6d51420813ae1 for reading in non-blocking mode.
+2026-04-13T20:54:11.3501061Z Successfully opened named pipe: /podr/container/pipe/03daf2399006_fabric-poc-api/stderr_2b90ed734e754f2b9ca6d51420813ae1.
+2026-04-13T20:54:11.3502764Z Successfully removed non-blocking flag from /podr/container/pipe/03daf2399006_fabric-poc-api/stderr_2b90ed734e754f2b9ca6d51420813ae1.
+2026-04-13T20:54:11.3888310Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T20:54:17.4852933Z Starting container: 03daf2399006_fabric-poc-api.
+2026-04-13T20:54:17.8929521Z Starting watchers and probes.
+2026-04-13T20:54:17.8933202Z Starting metrics collection.
+2026-04-13T20:54:18.0712160Z Container is running.
+2026-04-13T20:54:18.1004344Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:54:18.7511052Z Container start method finished after 59080 ms.
+2026-04-13T20:54:18.9297630Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:54:18.9301923Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T20:56:25.2917000Z Container has finished running with exit code: 2.
+2026-04-13T20:56:25.3001905Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T20:56:25.3308089Z Stop and delete container. Retry count = 0
+2026-04-13T20:56:25.3395683Z Stopping container: 03daf2399006_fabric-poc-api.
+2026-04-13T20:56:25.7022106Z Deleting container: 03daf2399006_fabric-poc-api. Retry count = 0
+2026-04-13T20:56:27.1959760Z Container spec TerminationMessagePolicy  path 
+2026-04-13T20:56:27.3362037Z Container is terminated. Total time elapsed: 1923 ms.
+2026-04-13T20:56:27.3440846Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T20:56:27.4547931Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:51:43, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:56:27.6677298Z Site startup probe failed after 128.5801138 seconds.
+2026-04-13T20:56:29.3283397Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:56:29.6099791Z Failed to start site. Revert by stopping site.
+2026-04-13T20:56:29.6530767Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:56:29.6938486Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T20:56:29.7113867Z Site: fabric-poc-api stopped.
+2026-04-13T20:56:58.5090057Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:56:33 (UTC), DetailsLevel: ERR
+2026-04-13T20:57:11.9391049Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 20:56:33 (UTC), DetailsLevel: ERR
+2026-04-13T20:57:12.1190962Z Container start method called.
+2026-04-13T20:57:12.1193804Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:57:12.1197809Z Establishing network.
+2026-04-13T20:57:12.1485046Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T20:57:16.2165311Z Container is starting.
+2026-04-13T20:57:16.2169492Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T20:57:16.2174592Z Establishing user namespace if not established already.
+2026-04-13T20:57:16.2272865Z Establishing network if not established already.
+2026-04-13T20:57:16.3061031Z Mounting volumes.
+2026-04-13T20:57:16.3176900Z Nested mountpoint 
+2026-04-13T20:57:16.6976137Z Nested mountpoint volatile/logs
+2026-04-13T20:57:16.9537277Z Nested mountpoint 
+2026-04-13T20:57:16.9950612Z Nested mountpoint 
+2026-04-13T20:57:17.0734876Z Nested mountpoint 
+2026-04-13T20:57:21.6206010Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T20:57:21.6209885Z Creating container.
+2026-04-13T20:57:21.6316773Z Creating pipes for streaming container io.
+2026-04-13T20:57:21.6506566Z Creating stdout named pipe at /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stdout_7556526350c04b719cdba65ecf1baf5f.
+2026-04-13T20:57:21.7663986Z Successfully created stdout named pipe at: /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stdout_7556526350c04b719cdba65ecf1baf5f.
+2026-04-13T20:57:21.7668355Z Opening named pipe /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stdout_7556526350c04b719cdba65ecf1baf5f for reading in non-blocking mode.
+2026-04-13T20:57:21.7670878Z Successfully opened named pipe: /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stdout_7556526350c04b719cdba65ecf1baf5f.
+2026-04-13T20:57:21.7937662Z Successfully removed non-blocking flag from /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stdout_7556526350c04b719cdba65ecf1baf5f.
+2026-04-13T20:57:21.7948530Z Creating stderr named pipe at /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stderr_07b22c0a57284a4a99956ba8ff8520fd.
+2026-04-13T20:57:21.8131306Z Successfully created stderr named pipe at: /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stderr_07b22c0a57284a4a99956ba8ff8520fd.
+2026-04-13T20:57:21.8135852Z Opening named pipe /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stderr_07b22c0a57284a4a99956ba8ff8520fd for reading in non-blocking mode.
+2026-04-13T20:57:21.8138697Z Successfully opened named pipe: /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stderr_07b22c0a57284a4a99956ba8ff8520fd.
+2026-04-13T20:57:21.8140392Z Successfully removed non-blocking flag from /podr/container/pipe/a45a7e1aa70b_fabric-poc-api/stderr_07b22c0a57284a4a99956ba8ff8520fd.
+2026-04-13T20:57:21.8242262Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T20:57:24.3727776Z Starting container: a45a7e1aa70b_fabric-poc-api.
+2026-04-13T20:57:24.7015882Z Starting watchers and probes.
+2026-04-13T20:57:24.8583123Z Starting metrics collection.
+2026-04-13T20:57:25.0779477Z Container is running.
+2026-04-13T20:57:25.0782104Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:57:25.7265008Z Container start method finished after 13607 ms.
+2026-04-13T20:57:25.7267222Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T20:57:25.7267485Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:00:24.1430312Z Container has finished running with exit code: 2.
+2026-04-13T21:00:24.1446799Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:00:24.2034865Z Stop and delete container. Retry count = 0
+2026-04-13T21:00:24.2406157Z Stopping container: a45a7e1aa70b_fabric-poc-api.
+2026-04-13T21:00:25.1689113Z Deleting container: a45a7e1aa70b_fabric-poc-api. Retry count = 0
+2026-04-13T21:00:27.6918171Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:00:27.6921882Z Container is terminated. Total time elapsed: 3529 ms.
+2026-04-13T21:00:27.7004411Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:00:27.7746323Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 20:56:29, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:00:28.1659981Z Site startup probe failed after 182.2898831 seconds.
+2026-04-13T21:00:35.9458614Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:00:36.4686947Z Failed to start site. Revert by stopping site.
+2026-04-13T21:00:36.5958960Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:00:36.8966171Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:00:36.8967279Z Site: fabric-poc-api stopped.
+2026-04-13T21:00:37.2914719Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:00:40.3652385Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:00:42.4244674Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:00:42 (UTC), DetailsLevel: ERR
+2026-04-13T21:00:43.4366202Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:00:42 (UTC), DetailsLevel: ERR
+2026-04-13T21:00:49.6043851Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:00:42 (UTC), DetailsLevel: ERR
+2026-04-13T21:00:56.3458555Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:00:42 (UTC), DetailsLevel: ERR
+2026-04-13T21:00:56.3951105Z Container start method called.
+2026-04-13T21:00:56.4146495Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:00:56.4235174Z Establishing network.
+2026-04-13T21:00:56.4837066Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:00:57.8606492Z Container is starting.
+2026-04-13T21:00:57.9382033Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:00:57.9387341Z Establishing user namespace if not established already.
+2026-04-13T21:00:57.9389552Z Establishing network if not established already.
+2026-04-13T21:00:57.9391507Z Mounting volumes.
+2026-04-13T21:00:58.0067356Z Nested mountpoint 
+2026-04-13T21:00:58.2151426Z Nested mountpoint volatile/logs
+2026-04-13T21:00:58.2939783Z Nested mountpoint 
+2026-04-13T21:00:58.3461510Z Nested mountpoint 
+2026-04-13T21:00:58.6635375Z Nested mountpoint 
+2026-04-13T21:01:02.7800925Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:01:02.8287076Z Creating container.
+2026-04-13T21:01:02.8388111Z Creating pipes for streaming container io.
+2026-04-13T21:01:03.3769353Z Creating stdout named pipe at /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stdout_5e53a9e7052d4a308d71de59d66777c3.
+2026-04-13T21:01:03.3889512Z Successfully created stdout named pipe at: /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stdout_5e53a9e7052d4a308d71de59d66777c3.
+2026-04-13T21:01:03.3894585Z Opening named pipe /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stdout_5e53a9e7052d4a308d71de59d66777c3 for reading in non-blocking mode.
+2026-04-13T21:01:03.3897201Z Successfully opened named pipe: /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stdout_5e53a9e7052d4a308d71de59d66777c3.
+2026-04-13T21:01:03.3898868Z Successfully removed non-blocking flag from /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stdout_5e53a9e7052d4a308d71de59d66777c3.
+2026-04-13T21:01:03.5973582Z Creating stderr named pipe at /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stderr_bd744d883ab24a54a267182f3f19ff23.
+2026-04-13T21:01:03.5976772Z Successfully created stderr named pipe at: /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stderr_bd744d883ab24a54a267182f3f19ff23.
+2026-04-13T21:01:03.5978489Z Opening named pipe /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stderr_bd744d883ab24a54a267182f3f19ff23 for reading in non-blocking mode.
+2026-04-13T21:01:03.5980357Z Successfully opened named pipe: /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stderr_bd744d883ab24a54a267182f3f19ff23.
+2026-04-13T21:01:03.5981991Z Successfully removed non-blocking flag from /podr/container/pipe/72a7bb41d2ab_fabric-poc-api/stderr_bd744d883ab24a54a267182f3f19ff23.
+2026-04-13T21:01:03.8292455Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:01:10.7045019Z Starting container: 72a7bb41d2ab_fabric-poc-api.
+2026-04-13T21:01:11.1058513Z Starting watchers and probes.
+2026-04-13T21:01:11.1428154Z Starting metrics collection.
+2026-04-13T21:01:11.1444486Z Container is running.
+2026-04-13T21:01:11.1446004Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:01:11.6853035Z Container start method finished after 15269 ms.
+2026-04-13T21:01:11.6857238Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:01:11.6857620Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:03:35.0185456Z Container has finished running with exit code: 2.
+2026-04-13T21:03:35.0186766Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:03:35.0769598Z Stop and delete container. Retry count = 0
+2026-04-13T21:03:35.0772707Z Stopping container: 72a7bb41d2ab_fabric-poc-api.
+2026-04-13T21:03:35.3735858Z Deleting container: 72a7bb41d2ab_fabric-poc-api. Retry count = 0
+2026-04-13T21:03:36.3682311Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:03:36.3988316Z Container is terminated. Total time elapsed: 1378 ms.
+2026-04-13T21:03:36.3991242Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:03:36.3996934Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:00:35, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:03:36.4775038Z Site startup probe failed after 144.5391359 seconds.
+2026-04-13T21:03:37.0787359Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:03:37.1778683Z Failed to start site. Revert by stopping site.
+2026-04-13T21:03:37.1862238Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:03:37.1875965Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:03:37.1876439Z Site: fabric-poc-api stopped.
+2026-04-13T21:04:53.7269409Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:03:38 (UTC), DetailsLevel: WARN
+2026-04-13T21:04:59.7251580Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:03:38 (UTC), DetailsLevel: WARN
+2026-04-13T21:04:59.7253675Z Container start method called.
+2026-04-13T21:04:59.7254454Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:04:59.7256034Z Establishing network.
+2026-04-13T21:04:59.7257810Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:05:01.8827924Z Container is starting.
+2026-04-13T21:05:01.9119979Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:05:01.9124400Z Establishing user namespace if not established already.
+2026-04-13T21:05:01.9128493Z Establishing network if not established already.
+2026-04-13T21:05:01.9130592Z Mounting volumes.
+2026-04-13T21:05:01.9204806Z Nested mountpoint 
+2026-04-13T21:05:02.1001616Z Nested mountpoint volatile/logs
+2026-04-13T21:05:02.3441445Z Nested mountpoint 
+2026-04-13T21:05:02.3741207Z Nested mountpoint 
+2026-04-13T21:05:02.5301775Z Nested mountpoint 
+2026-04-13T21:05:05.2750860Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:05:05.2753573Z Creating container.
+2026-04-13T21:05:05.2762757Z Creating pipes for streaming container io.
+2026-04-13T21:05:05.2764559Z Creating stdout named pipe at /podr/container/pipe/92e183a64b7b_fabric-poc-api/stdout_f506b609e647465483264671fa837223.
+2026-04-13T21:05:05.3023894Z Successfully created stdout named pipe at: /podr/container/pipe/92e183a64b7b_fabric-poc-api/stdout_f506b609e647465483264671fa837223.
+2026-04-13T21:05:05.3025297Z Opening named pipe /podr/container/pipe/92e183a64b7b_fabric-poc-api/stdout_f506b609e647465483264671fa837223 for reading in non-blocking mode.
+2026-04-13T21:05:05.3026713Z Successfully opened named pipe: /podr/container/pipe/92e183a64b7b_fabric-poc-api/stdout_f506b609e647465483264671fa837223.
+2026-04-13T21:05:05.3027716Z Successfully removed non-blocking flag from /podr/container/pipe/92e183a64b7b_fabric-poc-api/stdout_f506b609e647465483264671fa837223.
+2026-04-13T21:05:05.3038812Z Creating stderr named pipe at /podr/container/pipe/92e183a64b7b_fabric-poc-api/stderr_eac267bc894c4356a2055f29f0639683.
+2026-04-13T21:05:05.3041082Z Successfully created stderr named pipe at: /podr/container/pipe/92e183a64b7b_fabric-poc-api/stderr_eac267bc894c4356a2055f29f0639683.
+2026-04-13T21:05:05.3042105Z Opening named pipe /podr/container/pipe/92e183a64b7b_fabric-poc-api/stderr_eac267bc894c4356a2055f29f0639683 for reading in non-blocking mode.
+2026-04-13T21:05:05.3043214Z Successfully opened named pipe: /podr/container/pipe/92e183a64b7b_fabric-poc-api/stderr_eac267bc894c4356a2055f29f0639683.
+2026-04-13T21:05:05.3412347Z Successfully removed non-blocking flag from /podr/container/pipe/92e183a64b7b_fabric-poc-api/stderr_eac267bc894c4356a2055f29f0639683.
+2026-04-13T21:05:05.3428592Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:05:08.2210155Z Starting container: 92e183a64b7b_fabric-poc-api.
+2026-04-13T21:05:08.6559671Z Starting watchers and probes.
+2026-04-13T21:05:08.7054522Z Starting metrics collection.
+2026-04-13T21:05:08.7074572Z Container is running.
+2026-04-13T21:05:08.7176670Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:05:09.2766973Z Container start method finished after 9550 ms.
+2026-04-13T21:05:09.3866291Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:05:09.3866978Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:06:31.8740668Z Container has finished running with exit code: 1.
+2026-04-13T21:06:31.8743084Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:06:31.8858750Z Stop and delete container. Retry count = 0
+2026-04-13T21:06:31.8860877Z Stopping container: 92e183a64b7b_fabric-poc-api.
+2026-04-13T21:06:32.0169454Z Deleting container: 92e183a64b7b_fabric-poc-api. Retry count = 0
+2026-04-13T21:06:32.6563177Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:06:32.6576633Z Container is terminated. Total time elapsed: 782 ms.
+2026-04-13T21:06:32.6580331Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:06:32.6597122Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:03:37, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:06:32.7767674Z Site startup probe failed after 83.3536059 seconds.
+2026-04-13T21:06:33.2658765Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:06:33.2765563Z Failed to start site. Revert by stopping site.
+2026-04-13T21:06:33.2767994Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:06:33.2772682Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:06:33.2772965Z Site: fabric-poc-api stopped.
+2026-04-13T21:06:33.3256964Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:06:34.1543420Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:06:34.4735870Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:06:34 (UTC), DetailsLevel: ERR
+2026-04-13T21:06:35.3648313Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:06:34 (UTC), DetailsLevel: ERR
+2026-04-13T21:06:36.0398487Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:06:34 (UTC), DetailsLevel: ERR
+2026-04-13T21:06:39.2321071Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:06:34 (UTC), DetailsLevel: ERR
+2026-04-13T21:06:39.2331472Z Container start method called.
+2026-04-13T21:06:39.2529713Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:06:39.2917639Z Establishing network.
+2026-04-13T21:06:39.3020275Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:06:39.6677581Z Container is starting.
+2026-04-13T21:06:39.6679157Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:06:39.6681000Z Establishing user namespace if not established already.
+2026-04-13T21:06:39.6682630Z Establishing network if not established already.
+2026-04-13T21:06:39.6684411Z Mounting volumes.
+2026-04-13T21:06:39.6686684Z Nested mountpoint 
+2026-04-13T21:06:39.7291079Z Nested mountpoint volatile/logs
+2026-04-13T21:06:39.7795447Z Nested mountpoint 
+2026-04-13T21:06:39.8281915Z Nested mountpoint 
+2026-04-13T21:06:39.9484470Z Nested mountpoint 
+2026-04-13T21:06:41.1500498Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:06:41.1515561Z Creating container.
+2026-04-13T21:06:41.1520577Z Creating pipes for streaming container io.
+2026-04-13T21:06:41.1788753Z Creating stdout named pipe at /podr/container/pipe/d18f06343738_fabric-poc-api/stdout_d6a41eea195542e0a1b8cb19d75100bc.
+2026-04-13T21:06:41.1799623Z Successfully created stdout named pipe at: /podr/container/pipe/d18f06343738_fabric-poc-api/stdout_d6a41eea195542e0a1b8cb19d75100bc.
+2026-04-13T21:06:41.1804291Z Opening named pipe /podr/container/pipe/d18f06343738_fabric-poc-api/stdout_d6a41eea195542e0a1b8cb19d75100bc for reading in non-blocking mode.
+2026-04-13T21:06:41.1808717Z Successfully opened named pipe: /podr/container/pipe/d18f06343738_fabric-poc-api/stdout_d6a41eea195542e0a1b8cb19d75100bc.
+2026-04-13T21:06:41.1823954Z Successfully removed non-blocking flag from /podr/container/pipe/d18f06343738_fabric-poc-api/stdout_d6a41eea195542e0a1b8cb19d75100bc.
+2026-04-13T21:06:41.1894826Z Creating stderr named pipe at /podr/container/pipe/d18f06343738_fabric-poc-api/stderr_e99ac094c5cc4c7f9e0ddd9cf095815b.
+2026-04-13T21:06:41.1898395Z Successfully created stderr named pipe at: /podr/container/pipe/d18f06343738_fabric-poc-api/stderr_e99ac094c5cc4c7f9e0ddd9cf095815b.
+2026-04-13T21:06:41.1899995Z Opening named pipe /podr/container/pipe/d18f06343738_fabric-poc-api/stderr_e99ac094c5cc4c7f9e0ddd9cf095815b for reading in non-blocking mode.
+2026-04-13T21:06:41.1901980Z Successfully opened named pipe: /podr/container/pipe/d18f06343738_fabric-poc-api/stderr_e99ac094c5cc4c7f9e0ddd9cf095815b.
+2026-04-13T21:06:41.1903539Z Successfully removed non-blocking flag from /podr/container/pipe/d18f06343738_fabric-poc-api/stderr_e99ac094c5cc4c7f9e0ddd9cf095815b.
+2026-04-13T21:06:41.2000899Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:06:42.3074483Z Starting container: d18f06343738_fabric-poc-api.
+2026-04-13T21:06:42.5059153Z Starting watchers and probes.
+2026-04-13T21:06:42.5267421Z Starting metrics collection.
+2026-04-13T21:06:42.5365013Z Container is running.
+2026-04-13T21:06:42.5461122Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:06:42.8789245Z Container start method finished after 3644 ms.
+2026-04-13T21:06:42.9176407Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:06:42.9178558Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:07:59.9777349Z Container has finished running with exit code: 1.
+2026-04-13T21:07:59.9780169Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:08:00.0436802Z Stop and delete container. Retry count = 0
+2026-04-13T21:08:00.0462719Z Stopping container: d18f06343738_fabric-poc-api.
+2026-04-13T21:08:00.4152429Z Deleting container: d18f06343738_fabric-poc-api. Retry count = 0
+2026-04-13T21:08:01.3338937Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:08:01.3361700Z Container is terminated. Total time elapsed: 1355 ms.
+2026-04-13T21:08:01.3539842Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:08:01.3542879Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:06:33, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:08:01.4289096Z Site startup probe failed after 78.4994426 seconds.
+2026-04-13T21:08:02.7034577Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:08:02.8006818Z Failed to start site. Revert by stopping site.
+2026-04-13T21:08:02.8077589Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:08:02.9434757Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:08:02.9435352Z Site: fabric-poc-api stopped.
+2026-04-13T21:12:30.4315004Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:08:04 (UTC), DetailsLevel: WARN
+2026-04-13T21:12:40.9830247Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:08:04 (UTC), DetailsLevel: WARN
+2026-04-13T21:12:40.9995972Z Container start method called.
+2026-04-13T21:12:41.0016727Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:12:41.0115966Z Establishing network.
+2026-04-13T21:12:41.2295469Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:12:43.6018304Z Container is starting.
+2026-04-13T21:12:43.6019485Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:12:43.6020477Z Establishing user namespace if not established already.
+2026-04-13T21:12:43.6021497Z Establishing network if not established already.
+2026-04-13T21:12:43.6022560Z Mounting volumes.
+2026-04-13T21:12:43.6024238Z Nested mountpoint 
+2026-04-13T21:12:43.8953572Z Nested mountpoint volatile/logs
+2026-04-13T21:12:44.1443595Z Nested mountpoint 
+2026-04-13T21:12:44.1468117Z Nested mountpoint 
+2026-04-13T21:12:44.3460050Z Nested mountpoint 
+2026-04-13T21:12:47.4202578Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:12:47.4206606Z Creating container.
+2026-04-13T21:12:47.4208553Z Creating pipes for streaming container io.
+2026-04-13T21:12:47.4210416Z Creating stdout named pipe at /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stdout_104d504887a845a8b9fec95d1ebe246f.
+2026-04-13T21:12:47.5116016Z Successfully created stdout named pipe at: /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stdout_104d504887a845a8b9fec95d1ebe246f.
+2026-04-13T21:12:47.5285050Z Opening named pipe /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stdout_104d504887a845a8b9fec95d1ebe246f for reading in non-blocking mode.
+2026-04-13T21:12:47.5295661Z Successfully opened named pipe: /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stdout_104d504887a845a8b9fec95d1ebe246f.
+2026-04-13T21:12:47.5297787Z Successfully removed non-blocking flag from /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stdout_104d504887a845a8b9fec95d1ebe246f.
+2026-04-13T21:12:47.5499924Z Creating stderr named pipe at /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stderr_d8bc51b3573145f7a60060eab26735ba.
+2026-04-13T21:12:47.5503693Z Successfully created stderr named pipe at: /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stderr_d8bc51b3573145f7a60060eab26735ba.
+2026-04-13T21:12:47.5505304Z Opening named pipe /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stderr_d8bc51b3573145f7a60060eab26735ba for reading in non-blocking mode.
+2026-04-13T21:12:47.5507213Z Successfully opened named pipe: /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stderr_d8bc51b3573145f7a60060eab26735ba.
+2026-04-13T21:12:47.5508872Z Successfully removed non-blocking flag from /podr/container/pipe/e8c8b9522a3b_fabric-poc-api/stderr_d8bc51b3573145f7a60060eab26735ba.
+2026-04-13T21:12:47.5784720Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:12:52.9091629Z Starting container: e8c8b9522a3b_fabric-poc-api.
+2026-04-13T21:12:53.4980644Z Starting watchers and probes.
+2026-04-13T21:12:53.5174008Z Starting metrics collection.
+2026-04-13T21:12:53.5279501Z Container is running.
+2026-04-13T21:12:53.5383012Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:12:54.4111029Z Container start method finished after 13409 ms.
+2026-04-13T21:12:54.4120863Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:12:54.4901778Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:14:48.9094490Z Container has finished running with exit code: 1.
+2026-04-13T21:14:48.9105980Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:14:48.9400998Z Stop and delete container. Retry count = 0
+2026-04-13T21:14:48.9405379Z Stopping container: e8c8b9522a3b_fabric-poc-api.
+2026-04-13T21:14:49.1852168Z Deleting container: e8c8b9522a3b_fabric-poc-api. Retry count = 0
+2026-04-13T21:14:50.0795615Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:14:50.1216018Z Container is terminated. Total time elapsed: 1201 ms.
+2026-04-13T21:14:50.1219486Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:14:50.1723843Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:08:02, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:14:50.2597685Z Site startup probe failed after 115.767277 seconds.
+2026-04-13T21:14:50.6748311Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:14:50.7356721Z Failed to start site. Revert by stopping site.
+2026-04-13T21:14:50.7652944Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:14:50.7752766Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:14:50.7812699Z Site: fabric-poc-api stopped.
+2026-04-13T21:15:40.8277428Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:14:52 (UTC), DetailsLevel: ERR
+2026-04-13T21:15:45.5720883Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:14:52 (UTC), DetailsLevel: ERR
+2026-04-13T21:15:45.5726775Z Container start method called.
+2026-04-13T21:15:45.5823757Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.6:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:15:45.5827994Z Establishing network.
+2026-04-13T21:15:45.5918286Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:16:26.8889586Z Container is starting.
+2026-04-13T21:16:26.8995264Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:16:26.9006247Z Establishing user namespace if not established already.
+2026-04-13T21:16:26.9012258Z Establishing network if not established already.
+2026-04-13T21:16:26.9015954Z Mounting volumes.
+2026-04-13T21:16:26.9089150Z Nested mountpoint 
+2026-04-13T21:16:26.9617357Z Nested mountpoint volatile/logs
+2026-04-13T21:16:27.1295786Z Nested mountpoint 
+2026-04-13T21:16:27.1601739Z Nested mountpoint 
+2026-04-13T21:16:27.1914419Z Nested mountpoint 
+2026-04-13T21:16:28.4684235Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:16:28.5158711Z Creating container.
+2026-04-13T21:16:28.5161144Z Creating pipes for streaming container io.
+2026-04-13T21:16:28.5162227Z Creating stdout named pipe at /podr/container/pipe/604fc267c516_fabric-poc-api/stdout_c941e74c293e4f98b86081624e8fd4ca.
+2026-04-13T21:16:28.5640852Z Successfully created stdout named pipe at: /podr/container/pipe/604fc267c516_fabric-poc-api/stdout_c941e74c293e4f98b86081624e8fd4ca.
+2026-04-13T21:16:28.5646372Z Opening named pipe /podr/container/pipe/604fc267c516_fabric-poc-api/stdout_c941e74c293e4f98b86081624e8fd4ca for reading in non-blocking mode.
+2026-04-13T21:16:28.5649034Z Successfully opened named pipe: /podr/container/pipe/604fc267c516_fabric-poc-api/stdout_c941e74c293e4f98b86081624e8fd4ca.
+2026-04-13T21:16:28.5650930Z Successfully removed non-blocking flag from /podr/container/pipe/604fc267c516_fabric-poc-api/stdout_c941e74c293e4f98b86081624e8fd4ca.
+2026-04-13T21:16:28.5926101Z Creating stderr named pipe at /podr/container/pipe/604fc267c516_fabric-poc-api/stderr_68fcb0fbf6114c43b8ac71a5b71c6076.
+2026-04-13T21:16:28.5929817Z Successfully created stderr named pipe at: /podr/container/pipe/604fc267c516_fabric-poc-api/stderr_68fcb0fbf6114c43b8ac71a5b71c6076.
+2026-04-13T21:16:28.5931730Z Opening named pipe /podr/container/pipe/604fc267c516_fabric-poc-api/stderr_68fcb0fbf6114c43b8ac71a5b71c6076 for reading in non-blocking mode.
+2026-04-13T21:16:28.5933666Z Successfully opened named pipe: /podr/container/pipe/604fc267c516_fabric-poc-api/stderr_68fcb0fbf6114c43b8ac71a5b71c6076.
+2026-04-13T21:16:28.5935212Z Successfully removed non-blocking flag from /podr/container/pipe/604fc267c516_fabric-poc-api/stderr_68fcb0fbf6114c43b8ac71a5b71c6076.
+2026-04-13T21:16:28.6314778Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:16:31.5610372Z Starting container: 604fc267c516_fabric-poc-api.
+2026-04-13T21:16:31.8762982Z Starting watchers and probes.
+2026-04-13T21:16:31.8788182Z Starting metrics collection.
+2026-04-13T21:16:31.9164304Z Container is running.
+2026-04-13T21:16:31.9165697Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:16:32.6533315Z Container start method finished after 47002 ms.
+2026-04-13T21:16:32.6755495Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:16:32.6757513Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:19:03.4382072Z Container has finished running with exit code: 1.
+2026-04-13T21:19:03.4471023Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:19:03.5170907Z Stop and delete container. Retry count = 0
+2026-04-13T21:19:03.5199992Z Stopping container: 604fc267c516_fabric-poc-api.
+2026-04-13T21:19:03.8884213Z Deleting container: 604fc267c516_fabric-poc-api. Retry count = 0
+2026-04-13T21:19:04.8892035Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:19:04.8908660Z Container is terminated. Total time elapsed: 1421 ms.
+2026-04-13T21:19:04.9178566Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:19:04.9184784Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:14:50, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:19:04.9578584Z Site startup probe failed after 152.2332346 seconds.
+2026-04-13T21:19:05.7576738Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:19:05.8770151Z Failed to start site. Revert by stopping site.
+2026-04-13T21:19:05.9153167Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:19:05.9284772Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:19:05.9285151Z Site: fabric-poc-api stopped.
+2026-04-13T21:19:05.9474840Z State: Stopping, Action: UnmountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:19:06.9166086Z State: Stopping, Action: StoppingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:19:08.0127229Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:19:08 (UTC), DetailsLevel: ERR
+2026-04-13T21:19:08.9349178Z State: Stopped, Action: None, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:19:08 (UTC), DetailsLevel: ERR
+2026-04-13T21:20:42.0827814Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:19:08 (UTC), DetailsLevel: ERR
+2026-04-13T21:20:46.1255975Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:19:08 (UTC), DetailsLevel: ERR
+2026-04-13T21:20:46.1345103Z Container start method called.
+2026-04-13T21:20:46.1358141Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:20:46.1361662Z Establishing network.
+2026-04-13T21:20:46.1422029Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:21:19.6966117Z Container is starting.
+2026-04-13T21:21:19.7179211Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:21:19.7262249Z Establishing user namespace if not established already.
+2026-04-13T21:21:19.7269403Z Establishing network if not established already.
+2026-04-13T21:21:19.7275803Z Mounting volumes.
+2026-04-13T21:21:19.7278364Z Nested mountpoint 
+2026-04-13T21:21:19.8980816Z Nested mountpoint volatile/logs
+2026-04-13T21:21:19.9192937Z Nested mountpoint 
+2026-04-13T21:21:19.9270722Z Nested mountpoint 
+2026-04-13T21:21:20.0399386Z Nested mountpoint 
+2026-04-13T21:21:21.5430128Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:21:21.5831044Z Creating container.
+2026-04-13T21:21:21.5835741Z Creating pipes for streaming container io.
+2026-04-13T21:21:21.5837864Z Creating stdout named pipe at /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stdout_0ef792d96d4746f9be1f6690a47049ae.
+2026-04-13T21:21:21.5864619Z Successfully created stdout named pipe at: /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stdout_0ef792d96d4746f9be1f6690a47049ae.
+2026-04-13T21:21:21.6460311Z Opening named pipe /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stdout_0ef792d96d4746f9be1f6690a47049ae for reading in non-blocking mode.
+2026-04-13T21:21:21.6537573Z Successfully opened named pipe: /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stdout_0ef792d96d4746f9be1f6690a47049ae.
+2026-04-13T21:21:21.6567694Z Successfully removed non-blocking flag from /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stdout_0ef792d96d4746f9be1f6690a47049ae.
+2026-04-13T21:21:21.6755571Z Creating stderr named pipe at /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stderr_83237fc0bf2f48faae881a0f80726044.
+2026-04-13T21:21:21.6942000Z Successfully created stderr named pipe at: /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stderr_83237fc0bf2f48faae881a0f80726044.
+2026-04-13T21:21:21.6948143Z Opening named pipe /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stderr_83237fc0bf2f48faae881a0f80726044 for reading in non-blocking mode.
+2026-04-13T21:21:21.6957620Z Successfully opened named pipe: /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stderr_83237fc0bf2f48faae881a0f80726044.
+2026-04-13T21:21:21.6960684Z Successfully removed non-blocking flag from /podr/container/pipe/8f39fd887ac0_fabric-poc-api/stderr_83237fc0bf2f48faae881a0f80726044.
+2026-04-13T21:21:21.7044712Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:21:23.6353369Z Starting container: 8f39fd887ac0_fabric-poc-api.
+2026-04-13T21:21:23.8736597Z Starting watchers and probes.
+2026-04-13T21:21:23.9139218Z Starting metrics collection.
+2026-04-13T21:21:23.9248606Z Container is running.
+2026-04-13T21:21:23.9263861Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:21:24.5683872Z Container start method finished after 38433 ms.
+2026-04-13T21:21:24.5686753Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:21:24.5687030Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:24:02.5860078Z Container has finished running with exit code: 1.
+2026-04-13T21:24:02.6141417Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:24:02.6244905Z Stop and delete container. Retry count = 0
+2026-04-13T21:24:02.6247069Z Stopping container: 8f39fd887ac0_fabric-poc-api.
+2026-04-13T21:24:03.6902979Z Deleting container: 8f39fd887ac0_fabric-poc-api. Retry count = 0
+2026-04-13T21:24:05.6302682Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:24:05.6588336Z Container is terminated. Total time elapsed: 3031 ms.
+2026-04-13T21:24:05.6610757Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:24:05.7589007Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:19:05, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:24:05.9517541Z Site startup probe failed after 161.299945 seconds.
+2026-04-13T21:24:08.3209011Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:24:08.4630096Z Failed to start site. Revert by stopping site.
+2026-04-13T21:24:08.4729858Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:24:08.4840626Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:24:08.4927305Z Site: fabric-poc-api stopped.
+2026-04-13T21:24:43.7268814Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:24:11 (UTC), DetailsLevel: WARN
+2026-04-13T21:24:52.6198510Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:24:11 (UTC), DetailsLevel: WARN
+2026-04-13T21:24:52.6200025Z Container start method called.
+2026-04-13T21:24:52.6200545Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:24:52.6573247Z Establishing network.
+2026-04-13T21:24:52.6577875Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:24:53.7701387Z Container is starting.
+2026-04-13T21:24:53.7702543Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:24:53.7703481Z Establishing user namespace if not established already.
+2026-04-13T21:24:53.7704454Z Establishing network if not established already.
+2026-04-13T21:24:53.7705554Z Mounting volumes.
+2026-04-13T21:24:53.7706849Z Nested mountpoint 
+2026-04-13T21:24:54.0019673Z Nested mountpoint volatile/logs
+2026-04-13T21:24:54.1713929Z Nested mountpoint 
+2026-04-13T21:24:54.4564883Z Nested mountpoint 
+2026-04-13T21:24:54.5925713Z Nested mountpoint 
+2026-04-13T21:24:58.0012062Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:24:58.0262916Z Creating container.
+2026-04-13T21:24:58.0852366Z Creating pipes for streaming container io.
+2026-04-13T21:24:58.1143142Z Creating stdout named pipe at /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stdout_5200c9de02824d13b1456c462628de64.
+2026-04-13T21:24:58.1167376Z Successfully created stdout named pipe at: /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stdout_5200c9de02824d13b1456c462628de64.
+2026-04-13T21:24:58.1169692Z Opening named pipe /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stdout_5200c9de02824d13b1456c462628de64 for reading in non-blocking mode.
+2026-04-13T21:24:58.1426940Z Successfully opened named pipe: /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stdout_5200c9de02824d13b1456c462628de64.
+2026-04-13T21:24:58.1448058Z Successfully removed non-blocking flag from /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stdout_5200c9de02824d13b1456c462628de64.
+2026-04-13T21:24:58.1818684Z Creating stderr named pipe at /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stderr_935975e528cb4c2883df4557cac9764d.
+2026-04-13T21:24:58.1832407Z Successfully created stderr named pipe at: /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stderr_935975e528cb4c2883df4557cac9764d.
+2026-04-13T21:24:58.1838229Z Opening named pipe /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stderr_935975e528cb4c2883df4557cac9764d for reading in non-blocking mode.
+2026-04-13T21:24:58.1917753Z Successfully opened named pipe: /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stderr_935975e528cb4c2883df4557cac9764d.
+2026-04-13T21:24:58.1925538Z Successfully removed non-blocking flag from /podr/container/pipe/5c8b64a7b3f0_fabric-poc-api/stderr_935975e528cb4c2883df4557cac9764d.
+2026-04-13T21:24:58.1936909Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:25:00.9677413Z Starting container: 5c8b64a7b3f0_fabric-poc-api.
+2026-04-13T21:25:01.3747958Z Starting watchers and probes.
+2026-04-13T21:25:01.3943615Z Starting metrics collection.
+2026-04-13T21:25:01.4500770Z Container is running.
+2026-04-13T21:25:01.4506213Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:25:01.9616677Z Container start method finished after 9341 ms.
+2026-04-13T21:25:02.2909668Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:25:02.3025635Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:28:04.3270430Z Container has finished running with exit code: 1.
+2026-04-13T21:28:04.4612466Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:28:04.9295132Z Stop and delete container. Retry count = 0
+2026-04-13T21:28:04.9297172Z Stopping container: 5c8b64a7b3f0_fabric-poc-api.
+2026-04-13T21:28:05.6208442Z Deleting container: 5c8b64a7b3f0_fabric-poc-api. Retry count = 0
+2026-04-13T21:28:08.7390937Z Container get mounts received unexpected exception.
+2026-04-13T21:28:09.6942018Z Container get processes received unexpected exception.
+2026-04-13T21:28:10.9573020Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:28:10.9984082Z Container is terminated. Total time elapsed: 6271 ms.
+2026-04-13T21:28:11.0608795Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:28:11.1982412Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:24:08, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:28:12.8441231Z Site startup probe failed after 190.1119495 seconds.
+2026-04-13T21:28:17.6527638Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:28:18.1153290Z Failed to start site. Revert by stopping site.
+2026-04-13T21:28:18.2350683Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:28:18.3387557Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:28:18.3388051Z Site: fabric-poc-api stopped.
+2026-04-13T21:39:35.6052146Z State: Starting, Action: EstablishingSiteNetworks, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:28:24 (UTC), DetailsLevel: ERR
+2026-04-13T21:39:38.9288835Z State: Starting, Action: StartingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site stopped at 04/13/2026 21:28:24 (UTC), DetailsLevel: ERR
+2026-04-13T21:39:38.9621720Z Container start method called.
+2026-04-13T21:39:38.9777607Z State: Starting, Action: PullingImage, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pulling image 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:39:38.9783457Z Establishing network.
+2026-04-13T21:39:38.9988597Z Pulling image: appsvc/python:3.11_20260203.2.tuxprod.
+2026-04-13T21:39:40.1442619Z Container is starting.
+2026-04-13T21:39:40.1463112Z State: Starting, Action: MountingVolumes, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Mounting volumes for fabric-poc-api., DetailsLevel: INFO
+2026-04-13T21:39:40.1465656Z Establishing user namespace if not established already.
+2026-04-13T21:39:40.1532446Z Establishing network if not established already.
+2026-04-13T21:39:40.1551079Z Mounting volumes.
+2026-04-13T21:39:40.1569034Z Nested mountpoint 
+2026-04-13T21:39:40.2638404Z Nested mountpoint volatile/logs
+2026-04-13T21:39:40.3181606Z Nested mountpoint 
+2026-04-13T21:39:40.4260620Z Nested mountpoint 
+2026-04-13T21:39:40.5190862Z Nested mountpoint 
+2026-04-13T21:39:41.7685717Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Finished pulling container image and mounting volumes for fabric-poc-api. Allocatinng the rest of the container resources to finish container creation., DetailsLevel: INFO
+2026-04-13T21:39:41.7687781Z Creating container.
+2026-04-13T21:39:41.7689554Z Creating pipes for streaming container io.
+2026-04-13T21:39:41.8344007Z Creating stdout named pipe at /podr/container/pipe/4cd3289969e2_fabric-poc-api/stdout_6d8da8d863b94c33b3a4d07aea7b1171.
+2026-04-13T21:39:41.8507633Z Successfully created stdout named pipe at: /podr/container/pipe/4cd3289969e2_fabric-poc-api/stdout_6d8da8d863b94c33b3a4d07aea7b1171.
+2026-04-13T21:39:41.8515710Z Opening named pipe /podr/container/pipe/4cd3289969e2_fabric-poc-api/stdout_6d8da8d863b94c33b3a4d07aea7b1171 for reading in non-blocking mode.
+2026-04-13T21:39:41.8519202Z Successfully opened named pipe: /podr/container/pipe/4cd3289969e2_fabric-poc-api/stdout_6d8da8d863b94c33b3a4d07aea7b1171.
+2026-04-13T21:39:41.8528108Z Successfully removed non-blocking flag from /podr/container/pipe/4cd3289969e2_fabric-poc-api/stdout_6d8da8d863b94c33b3a4d07aea7b1171.
+2026-04-13T21:39:41.8724206Z Creating stderr named pipe at /podr/container/pipe/4cd3289969e2_fabric-poc-api/stderr_a5a482bf2ae4403a8aea8a3600590328.
+2026-04-13T21:39:41.8804470Z Successfully created stderr named pipe at: /podr/container/pipe/4cd3289969e2_fabric-poc-api/stderr_a5a482bf2ae4403a8aea8a3600590328.
+2026-04-13T21:39:41.8812153Z Opening named pipe /podr/container/pipe/4cd3289969e2_fabric-poc-api/stderr_a5a482bf2ae4403a8aea8a3600590328 for reading in non-blocking mode.
+2026-04-13T21:39:41.8815136Z Successfully opened named pipe: /podr/container/pipe/4cd3289969e2_fabric-poc-api/stderr_a5a482bf2ae4403a8aea8a3600590328.
+2026-04-13T21:39:41.8816849Z Successfully removed non-blocking flag from /podr/container/pipe/4cd3289969e2_fabric-poc-api/stderr_a5a482bf2ae4403a8aea8a3600590328.
+2026-04-13T21:39:41.8830072Z Creating container with image: appsvc/python:3.11_20260203.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/python:3.11_20260203.2.tuxprod
+2026-04-13T21:39:42.9799408Z Starting container: 4cd3289969e2_fabric-poc-api.
+2026-04-13T21:39:43.3859138Z Starting watchers and probes.
+2026-04-13T21:39:43.3884548Z Starting metrics collection.
+2026-04-13T21:39:43.3974644Z Container is running.
+2026-04-13T21:39:43.3983195Z State: Starting, Action: CreatingContainer, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:39:43.7251771Z Container start method finished after 4762 ms.
+2026-04-13T21:39:43.7271678Z State: Starting, Action: InitiatingSiteWarmUpProbe, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Container fabric-poc-api successfully created and is running., DetailsLevel: INFO
+2026-04-13T21:39:43.7554276Z State: Starting, Action: WaitingForSiteWarmUpProbeSuccess, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Pinging warmup path to ensure container is ready to receive requests., DetailsLevel: INFO
+2026-04-13T21:41:10.8651524Z Container has finished running with exit code: 1.
+2026-04-13T21:41:10.8665627Z Container is terminating. Grace period: 5 seconds.
+2026-04-13T21:41:10.8857117Z Stop and delete container. Retry count = 0
+2026-04-13T21:41:10.8942865Z Stopping container: 4cd3289969e2_fabric-poc-api.
+2026-04-13T21:41:11.2604491Z Deleting container: 4cd3289969e2_fabric-poc-api. Retry count = 0
+2026-04-13T21:41:14.5203597Z Container spec TerminationMessagePolicy  path 
+2026-04-13T21:41:14.5218039Z Container is terminated. Total time elapsed: 3652 ms.
+2026-04-13T21:41:14.5319253Z Site container: fabric-poc-api terminated during site startup.
+2026-04-13T21:41:14.5681775Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:28:17, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:41:14.6189892Z Site startup probe failed after 90.7133614 seconds.
+2026-04-13T21:41:15.2764387Z State: Stopping, Action: CancellingStartup, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:41:15, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:41:15.3627491Z Failed to start site. Revert by stopping site.
+2026-04-13T21:41:15.3724292Z State: Stopping, Action: StoppingSite, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:41:15, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:41:15.3894126Z State: Stopping, Action: StoppingSiteContainers, LastError: ContainerTimeout, LastErrorTimestamp: 04/13/2026 21:41:15, LastErrorDetails: Container did not start within expected time limit of 230s. Please inspect your container logs for more details., Details: Site container: fabric-poc-api terminated during site startup. Cancelling site startup., DetailsLevel: ERR
+2026-04-13T21:41:15.3894641Z Site: fabric-poc-api stopped.

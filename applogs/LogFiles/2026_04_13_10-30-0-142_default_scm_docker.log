@@ -1,0 +1,98 @@
+2026-04-13T20:26:05.3606733Z     __ __          __      __    _ __     
+2026-04-13T20:26:05.3652148Z    / //_/_  _ ____/ /_  __/ /   (_) /____ 
+2026-04-13T20:26:05.3652359Z   / ,< / / / / __  / / / / /   / / __/ _  
+2026-04-13T20:26:05.3652418Z  / /| / /_/ / /_/ / /_/ / /___/ / /_/  __/
+2026-04-13T20:26:05.3652451Z /_/ |_\__,_/\__,_/\__,_/_____/_/\__/\___/ 
+2026-04-13T20:26:05.3652478Z 
+2026-04-13T20:26:05.3652526Z                                           
+2026-04-13T20:26:05.3652559Z DEBUG CONSOLE | AZURE APP SERVICE ON LINUX
+2026-04-13T20:26:05.3652584Z 
+2026-04-13T20:26:05.3652615Z Documentation: http://aka.ms/webapp-linux
+2026-04-13T20:26:05.3652648Z Kudu Version : 20260204.5
+2026-04-13T20:26:05.3652694Z Commit       : f2123a3d94768058c9d9e002efc0a31e9c1580a3
+2026-04-13T20:26:05.3652744Z Instance Name: 10-30-0-142
+2026-04-13T20:26:05.3652829Z Instance Id  : 4811481022406343dec17cf4fd8bdf07b861b8e964e8b6c357e7bf184c92d6e0
+2026-04-13T20:26:05.3652858Z 
+2026-04-13T20:26:06.1524812Z chown: changing ownership of '/temp': Operation not permitted
+2026-04-13T20:26:06.1561194Z chmod: changing permissions of '/temp': Operation not permitted
+2026-04-13T20:26:06.9427037Z Restarting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:26:06.9851822Z node not running, starting node /opt/webssh/index.js
+2026-04-13T20:26:08.8679793Z Mon Apr 13 20:26:08 UTC 2026 running .net core
+2026-04-13T20:26:09.6703392Z Startup : 08.26.09.660547
+2026-04-13T20:26:09.6931572Z Configure Services : 08.26.09.692936
+2026-04-13T20:26:09.8965391Z Configure : 08.26.09.896404
+2026-04-13T20:26:10.0782580Z Setting Up Routes : 08.26.10.077993
+2026-04-13T20:26:10.0867861Z Exiting Configure : 08.26.10.086642
+2026-04-13T20:26:10.1549545Z Hosting environment: Production
+2026-04-13T20:26:10.1550191Z Content root path: /opt/Kudu
+2026-04-13T20:26:10.1550313Z Now listening on: http://0.0.0.0:8181
+2026-04-13T20:26:10.1550372Z Application started. Press Ctrl+C to shut down.
+2026-04-13T20:31:08.4032676Z Deploy Async
+2026-04-13T20:31:11.4637896Z Operation performed by Microsoft Oryx, https://github.com/Microsoft/Oryx
+2026-04-13T20:31:11.4783041Z You can report issues at https://github.com/Microsoft/Oryx/issues
+2026-04-13T20:31:11.4937129Z 
+2026-04-13T20:31:11.5021107Z Oryx Version: 0.2.20260204.1+0fdbe200b286be083841ff7fa201c6c2316dc6b9, Commit: 0fdbe200b286be083841ff7fa201c6c2316dc6b9, ReleaseTagName: 20260204.1
+2026-04-13T20:31:11.5082101Z 
+2026-04-13T20:31:11.5184752Z Build Operation ID: ac7c3c758952437f
+2026-04-13T20:31:11.5264045Z Repository Commit : cc6b6b9e-532e-4d9a-993f-e8ee41ba44ca
+2026-04-13T20:31:11.5323890Z OS Type           : bullseye
+2026-04-13T20:31:11.5390471Z Image Type        : githubactions
+2026-04-13T20:31:11.5520307Z 
+2026-04-13T20:31:11.5631589Z Primary SDK Storage URL: https://oryx-cdn.microsoft.io
+2026-04-13T20:31:11.5802535Z Backup SDK Storage URL: 
+2026-04-13T20:31:11.5911847Z Detecting platforms...
+2026-04-13T20:31:11.5970081Z External SDK provider is enabled.
+2026-04-13T20:31:11.6074549Z Requesting metadata for platform python from external SDK provider
+2026-04-13T20:31:12.5779351Z Requesting metadata for platform python from external SDK provider
+2026-04-13T20:31:12.9999660Z Successfully requested blob for platform python, blobName defaultVersion.bullseye.txt, available at /var/OryxSdks/python/defaultVersion.bullseye.txt
+2026-04-13T20:31:13.0371986Z Detected following platforms:
+2026-04-13T20:31:13.0460338Z   python: 3.11.15
+2026-04-13T20:31:13.0552873Z Requesting metadata for platform python from external SDK provider
+2026-04-13T20:31:21.2508860Z ....
+2026-04-13T20:31:21.2509463Z Successfully requested blob for platform python, blobName python-bullseye-3.11.15.tar.gz, available at /var/OryxSdks/python/python-bullseye-3.11.15.tar.gz
+2026-04-13T20:31:22.0224517Z Version '3.11.15' of platform 'python' is not installed. Generating script to install it...
+2026-04-13T20:31:22.2682542Z 
+2026-04-13T20:31:22.3847791Z Using intermediate directory '/tmp/8de999b990a25e8'.
+2026-04-13T20:31:22.3983240Z 
+2026-04-13T20:31:22.4037844Z Copying files to the intermediate directory...
+2026-04-13T20:31:22.4792910Z Copying files to intermediate directory done in 0 sec(s).
+2026-04-13T20:31:22.4967510Z 
+2026-04-13T20:31:22.5078741Z Source directory     : /tmp/8de999b990a25e8
+2026-04-13T20:31:22.5171804Z Destination directory: /home/site/wwwroot
+2026-04-13T20:31:22.5309241Z 
+2026-04-13T20:31:22.5444191Z Installing platform...
+2026-04-13T20:31:22.5584063Z 
+2026-04-13T20:31:22.5759758Z Downloading and extracting 'python' version '3.11.15' to '/tmp/oryx/platforms/python/3.11.15'...
+2026-04-13T20:31:22.5835771Z Detected image debian flavor: bullseye.
+2026-04-13T20:31:22.6031101Z Skipping download of python version 3.11.15 as it is available in external sdk provider cache...
+2026-04-13T20:31:22.6226472Z Extracting contents...
+2026-04-13T20:31:42.3730420Z ...............
+2026-04-13T20:31:42.3730738Z Successfully extracted python version 3.11.15 from external sdk provider cache...
+2026-04-13T20:31:42.4104703Z 
+2026-04-13T20:31:42.4653485Z image detector file exists, platform is python..
+2026-04-13T20:31:42.4677297Z OS detector file exists, OS is bullseye..
+2026-04-13T20:31:42.4855775Z Platform installation done in 20 sec(s).
+2026-04-13T20:31:42.6695294Z Running build script snippets...
+2026-04-13T20:31:42.6823300Z Python Version: /tmp/oryx/platforms/python/3.11.15/bin/python3.11
+2026-04-13T20:31:42.6907042Z Creating directory for command manifest file if it does not exist
+2026-04-13T20:31:42.7183600Z Removing existing manifest file
+2026-04-13T20:31:42.7229149Z Python Virtual Environment: antenv
+2026-04-13T20:31:42.7286995Z Creating virtual environment...
+2026-04-13T20:31:42.7319188Z Executing: /tmp/oryx/platforms/python/3.11.15/bin/python3.11 -m venv antenv --copies
+2026-04-13T20:31:48.7503526Z ..
+2026-04-13T20:31:48.7503923Z Activating virtual environment...
+2026-04-13T20:31:48.7618079Z Could not find requirements.txt, pyproject.toml, or setup.py; Not installing dependencies. More information: https://aka.ms/requirements-not-found
+2026-04-13T20:31:48.8085020Z Not a vso image, so not writing build commands
+2026-04-13T20:31:48.8194740Z Build script snippets done in 6 sec(s).
+2026-04-13T20:31:48.8282452Z Preparing output...
+2026-04-13T20:31:48.8622223Z Compressing source directory directly to destination (optimized path)...
+2026-04-13T20:31:48.8740999Z Using zstd for compression
+2026-04-13T20:31:49.3374635Z Copied the compressed output to '/home/site/wwwroot'
+2026-04-13T20:31:49.3520771Z Direct compression with zstd done in 1 sec(s).
+2026-04-13T20:31:49.3637156Z 
+2026-04-13T20:31:49.3756188Z Removing existing manifest file
+2026-04-13T20:31:49.3873537Z Creating a manifest file...
+2026-04-13T20:31:49.4147531Z Manifest file created.
+2026-04-13T20:31:49.4271102Z Copying .ostype to manifest output directory.
+2026-04-13T20:31:49.4550756Z 
+2026-04-13T20:31:49.4607955Z Total execution done in 27 sec(s).

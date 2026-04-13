@@ -1,0 +1,7 @@
+<step title="Incoming Request" date="2026-04-13T20:46:11.101" instance="9bb9f0" url="/api/deployments/temp-8e12b46c/log" method="GET" type="request" pid="774,1,24" Host="fabric-poc-api-d2bfbvbfa9e6emay.scm.eastus-01.azurewebsites.net" User-Agent="vscode-azureappservice/0.26.5 core-rest-pipeline/1.22.2 Node/22.22.1 (Windows_NT 10.0.26200; x64)" Accept-Encoding="gzip,deflate" Accept-Language="en" Authorization="Bea..." x-ms-correlation-request-id="c643df46-0d1e-42e8-9da2-81791ef634a0" x-ms-client-request-id="d4f23954-3cc7-4766-88c0-6f8548908cc6" X-ARR-LOG-ID="d4f23954-3cc7-4766-88c0-6f8548908cc6" CLIENT-IP="223.185.135.17:19943" X-SITE-DEPLOYMENT-ID="fabric-poc-api" WAS-DEFAULT-HOSTNAME="fabric-poc-api-d2bfbvbfa9e6emay.scm.eastus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/temp-8e12b46c/log" X-Client-IP="223.185.135.17" X-Client-Port="19943" >
+  <step title="Cleanup Xml Logs" date="2026-04-13T20:46:11.121" /><!-- duration: 11ms -->
+  <step title="DeploymentService.GetLogEntry" date="2026-04-13T20:46:11.322" >
+    <step title="DeploymentManager.GetLogEntries(id:temp-8e12b46c)" date="2026-04-13T20:46:11.331" /><!-- duration: 12ms -->
+  </step><!-- duration: 48ms -->
+  <step title="Outgoing response" date="2026-04-13T20:46:11.478" type="response" statusCode="200" statusText="OK" /><!-- duration: 50ms -->
+</step><!-- duration: 465ms -->

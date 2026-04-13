@@ -1,0 +1,546 @@
+2026-04-13T20:39:36.8240796Z    _____                               
+2026-04-13T20:39:36.8415110Z   /  _  \ __________ _________   ____  
+2026-04-13T20:39:36.8498883Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T20:39:36.8499202Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T20:39:36.8499285Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T20:39:36.8499420Z         \/      \/                  \/ 
+2026-04-13T20:39:36.8499544Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T20:39:36.8499671Z 
+2026-04-13T20:39:36.8499753Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T20:39:36.8499841Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T20:39:36.8499974Z Python version   : 3.11.14
+2026-04-13T20:39:36.8500062Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T20:39:36.8500215Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T20:39:36.8500317Z 
+2026-04-13T20:39:36.8500393Z Note: Any data outside '/home' is not persisted
+2026-04-13T20:39:54.8747213Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:39:54.9809837Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T20:39:55.3123384Z Updating certificates in /etc/ssl/certs...
+2026-04-13T20:41:14.6499643Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T20:41:14.6500688Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T20:41:14.8299871Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T20:41:15.0792805Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T20:41:15.4305965Z 4 added, 0 removed; done.
+2026-04-13T20:41:15.5150801Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T20:41:15.7049763Z done.
+2026-04-13T20:41:15.8059555Z CA certificates copied and updated successfully.
+2026-04-13T20:41:16.7524285Z Site's appCommandLine: cd backend && uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T20:41:18.4831498Z Starting periodic command scheduler: cron.
+2026-04-13T20:41:18.4833126Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd backend && uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T20:41:19.1384094Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T20:41:19.1384911Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T20:41:19.1385086Z Build Operation ID: dc781723-8bbd-429d-aeb1-ef404d5bf065
+2026-04-13T20:41:21.2928412Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T20:41:21.3528824Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T20:41:21.7985723Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T20:41:21.7990224Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T20:41:21.8001320Z /opt/startup/startup.sh: 23: cd: can't cd to backend
+2026-04-13T20:42:26.8252820Z    _____                               
+2026-04-13T20:42:26.8253289Z   /  _  \ __________ _________   ____  
+2026-04-13T20:42:26.8253355Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T20:42:26.8253407Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T20:42:26.8253456Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T20:42:26.8253608Z         \/      \/                  \/ 
+2026-04-13T20:42:26.8253752Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T20:42:26.8253802Z 
+2026-04-13T20:42:26.8253875Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T20:42:26.8254212Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T20:42:26.8254268Z Python version   : 3.11.14
+2026-04-13T20:42:26.8254321Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T20:42:26.8254383Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T20:42:26.8254430Z 
+2026-04-13T20:42:26.8254482Z Note: Any data outside '/home' is not persisted
+2026-04-13T20:42:54.7784523Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:42:54.9785225Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T20:42:56.1754826Z Updating certificates in /etc/ssl/certs...
+2026-04-13T20:44:27.7630242Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T20:44:27.7630805Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T20:44:27.8400667Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T20:44:28.0200402Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T20:44:28.1583338Z 4 added, 0 removed; done.
+2026-04-13T20:44:28.1584071Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T20:44:28.2619177Z done.
+2026-04-13T20:44:28.4001924Z CA certificates copied and updated successfully.
+2026-04-13T20:44:28.9602088Z Site's appCommandLine: cd backend && uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T20:44:30.7194730Z Starting periodic command scheduler: cron.
+2026-04-13T20:44:30.7398655Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd backend && uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T20:44:31.7073305Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2026-04-13T20:44:31.7735747Z Build Operation ID: 11c27b3a4a6e2636
+2026-04-13T20:44:31.8114079Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T20:44:31.8115041Z Output is compressed. Extracting it...
+2026-04-13T20:44:31.8194747Z Found zstd-compressed tarball.
+2026-04-13T20:44:31.8519641Z Extracting '/home/site/wwwroot/output.tar.zst' to directory '/tmp/8de999ca1bbee6c'...
+2026-04-13T20:44:31.8520475Z Using zstd for decompression of file: /home/site/wwwroot/output.tar.zst
+2026-04-13T20:44:41.4609162Z zstd tar Successfully extracted '/home/site/wwwroot/output.tar.zst' to '/tmp/8de999ca1bbee6c'
+2026-04-13T20:44:41.4721216Z App path is set to '/tmp/8de999ca1bbee6c'
+2026-04-13T20:44:43.8753986Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T20:44:44.4797972Z Using packages from virtual environment antenv located at /tmp/8de999ca1bbee6c/antenv.
+2026-04-13T20:44:44.4878008Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8de999ca1bbee6c/antenv/lib/python3.11/site-packages'
+2026-04-13T20:44:44.4895950Z /opt/startup/startup.sh: 26: uvicorn: not found
+2026-04-13T20:46:35.4825811Z    _____                               
+2026-04-13T20:46:35.4826264Z   /  _  \ __________ _________   ____  
+2026-04-13T20:46:35.4826328Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T20:46:35.4826385Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T20:46:35.4826523Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T20:46:35.4826579Z         \/      \/                  \/ 
+2026-04-13T20:46:35.4826661Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T20:46:35.4826812Z 
+2026-04-13T20:46:35.4826869Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T20:46:35.4826921Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T20:46:35.4826971Z Python version   : 3.11.14
+2026-04-13T20:46:35.4827022Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T20:46:35.4827080Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T20:46:35.4827127Z 
+2026-04-13T20:46:35.4827180Z Note: Any data outside '/home' is not persisted
+2026-04-13T20:46:48.1963625Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:46:48.3716791Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T20:46:48.8786016Z Updating certificates in /etc/ssl/certs...
+2026-04-13T20:48:10.4924500Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T20:48:10.6723240Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T20:48:10.7727711Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T20:48:10.9154218Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T20:48:11.2443763Z 4 added, 0 removed; done.
+2026-04-13T20:48:11.2455756Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T20:48:11.2754291Z done.
+2026-04-13T20:48:11.4981248Z CA certificates copied and updated successfully.
+2026-04-13T20:48:12.5942368Z Site's appCommandLine: cd backend && uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T20:48:15.1706757Z Starting periodic command scheduler: cron.
+2026-04-13T20:48:15.1708175Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd backend && uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T20:48:16.1783392Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T20:48:16.1793254Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T20:48:16.1793449Z Build Operation ID: 98842c66-7af8-482b-b955-f2d0504010ac
+2026-04-13T20:48:18.9103952Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T20:48:19.0438663Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T20:48:19.8346518Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T20:48:19.8346953Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T20:48:19.8640129Z /opt/startup/startup.sh: 23: cd: can't cd to backend
+2026-04-13T20:50:27.6143740Z    _____                               
+2026-04-13T20:50:27.6144773Z   /  _  \ __________ _________   ____  
+2026-04-13T20:50:27.6144840Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T20:50:27.6144891Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T20:50:27.6144940Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T20:50:27.6144988Z         \/      \/                  \/ 
+2026-04-13T20:50:27.6145037Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T20:50:27.6145089Z 
+2026-04-13T20:50:27.6145143Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T20:50:27.6145309Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T20:50:27.6145367Z Python version   : 3.11.14
+2026-04-13T20:50:27.6145417Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T20:50:27.6145477Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T20:50:27.6145525Z 
+2026-04-13T20:50:27.6145577Z Note: Any data outside '/home' is not persisted
+2026-04-13T20:50:34.6725611Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:50:34.7606842Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T20:50:35.2034456Z Updating certificates in /etc/ssl/certs...
+2026-04-13T20:51:36.2797727Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T20:51:36.3191086Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T20:51:36.3521767Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T20:51:36.4973211Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T20:51:36.5794478Z 4 added, 0 removed; done.
+2026-04-13T20:51:36.5795075Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T20:51:36.6082020Z done.
+2026-04-13T20:51:36.7564105Z CA certificates copied and updated successfully.
+2026-04-13T20:51:37.1746325Z Site's appCommandLine: cd backend && uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T20:51:38.5557097Z Starting periodic command scheduler: cron.
+2026-04-13T20:51:38.6878564Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd backend && uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T20:51:39.2836952Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T20:51:39.3023418Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T20:51:39.3023836Z Build Operation ID: 2e407665-b4f5-40bc-ba3f-a70bb7cdf2e3
+2026-04-13T20:51:41.1714794Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T20:51:41.2706287Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T20:51:41.7504477Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T20:51:41.7516482Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T20:51:41.7601757Z /opt/startup/startup.sh: 23: cd: can't cd to backend
+2026-04-13T20:54:19.3708457Z    _____                               
+2026-04-13T20:54:19.3736795Z   /  _  \ __________ _________   ____  
+2026-04-13T20:54:19.3737092Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T20:54:19.3737227Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T20:54:19.3737298Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T20:54:19.3737389Z         \/      \/                  \/ 
+2026-04-13T20:54:19.3737458Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T20:54:19.3737517Z 
+2026-04-13T20:54:19.3737587Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T20:54:19.3737658Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T20:54:19.3737758Z Python version   : 3.11.14
+2026-04-13T20:54:19.3737825Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T20:54:19.3737902Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T20:54:19.3737965Z 
+2026-04-13T20:54:19.3738028Z Note: Any data outside '/home' is not persisted
+2026-04-13T20:54:48.9403717Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:54:48.9604664Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T20:54:49.4802496Z Updating certificates in /etc/ssl/certs...
+2026-04-13T20:56:16.6782607Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T20:56:16.6783334Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T20:56:16.6992323Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T20:56:16.8177430Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T20:56:17.1424554Z 4 added, 0 removed; done.
+2026-04-13T20:56:17.2313043Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T20:56:17.2313877Z done.
+2026-04-13T20:56:17.2313965Z CA certificates copied and updated successfully.
+2026-04-13T20:56:17.8226032Z Site's appCommandLine: cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T20:56:20.0553664Z Starting periodic command scheduler: cron.
+2026-04-13T20:56:20.1050925Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T20:56:20.8206707Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T20:56:20.8207705Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T20:56:20.8207802Z Build Operation ID: 7e054301-ba42-4eac-9d1a-e752a51ec7eb
+2026-04-13T20:56:24.1333305Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T20:56:24.6153752Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T20:56:24.9808790Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T20:56:24.9890221Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T20:56:24.9988444Z /opt/startup/startup.sh: 23: cd: can't cd to /home/site/wwwroot/backend
+2026-04-13T20:57:26.5113246Z    _____                               
+2026-04-13T20:57:26.5117122Z   /  _  \ __________ _________   ____  
+2026-04-13T20:57:26.5117292Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T20:57:26.5117359Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T20:57:26.5117496Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T20:57:26.5117579Z         \/      \/                  \/ 
+2026-04-13T20:57:26.5117643Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T20:57:26.5117700Z 
+2026-04-13T20:57:26.5118006Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T20:57:26.5118083Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T20:57:26.5118147Z Python version   : 3.11.14
+2026-04-13T20:57:26.5118240Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T20:57:26.5118314Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T20:57:26.5118375Z 
+2026-04-13T20:57:26.5118438Z Note: Any data outside '/home' is not persisted
+2026-04-13T20:57:49.5622702Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T20:57:49.6911344Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T20:57:50.2993770Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:00:05.9259204Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:00:05.9432790Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:00:06.0972108Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:00:06.2543120Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:00:06.5964452Z 4 added, 0 removed; done.
+2026-04-13T21:00:06.5965080Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:00:06.7153508Z done.
+2026-04-13T21:00:06.9273084Z CA certificates copied and updated successfully.
+2026-04-13T21:00:08.2713376Z Site's appCommandLine: cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:00:12.7975104Z Starting periodic command scheduler: cron.
+2026-04-13T21:00:12.8265862Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:00:16.2335498Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:00:16.4504951Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:00:16.4506501Z Build Operation ID: 28184679-33a7-42ff-91f7-1ad6887dc84c
+2026-04-13T21:00:22.2797116Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:00:23.2330642Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:00:23.5880238Z /opt/startup/startup.sh: 23: cd: can't cd to /home/site/wwwroot/backend
+2026-04-13T21:00:23.5887693Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:00:23.5887996Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:01:12.1628431Z    _____                               
+2026-04-13T21:01:12.1628914Z   /  _  \ __________ _________   ____  
+2026-04-13T21:01:12.1628992Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:01:12.1629048Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:01:12.1629194Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:01:12.1629248Z         \/      \/                  \/ 
+2026-04-13T21:01:12.1629298Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:01:12.1629345Z 
+2026-04-13T21:01:12.1629396Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:01:12.1629447Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:01:12.1629497Z Python version   : 3.11.14
+2026-04-13T21:01:12.1629548Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:01:12.1629606Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:01:12.1629653Z 
+2026-04-13T21:01:12.1630725Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:01:34.8530788Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:01:35.2238693Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:01:35.9090961Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:03:24.9987061Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:03:25.0858956Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:03:25.0859427Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:03:25.1940320Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:03:25.3181974Z 4 added, 0 removed; done.
+2026-04-13T21:03:25.3373545Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:03:25.3935757Z done.
+2026-04-13T21:03:25.5111562Z CA certificates copied and updated successfully.
+2026-04-13T21:03:26.1089073Z Site's appCommandLine: cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:03:28.8330974Z Starting periodic command scheduler: cron.
+2026-04-13T21:03:28.8343168Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:03:30.3311343Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:03:30.3313080Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:03:30.3313164Z Build Operation ID: d97ed9d5-170f-4b4f-b2c8-e5609476ec37
+2026-04-13T21:03:34.5287647Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:03:34.7620927Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:03:34.9382891Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:03:34.9383384Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:03:34.9388627Z /opt/startup/startup.sh: 23: cd: can't cd to /home/site/wwwroot/backend
+2026-04-13T21:05:09.8863037Z    _____                               
+2026-04-13T21:05:09.8865036Z   /  _  \ __________ _________   ____  
+2026-04-13T21:05:09.8865100Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:05:09.8865137Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:05:09.8865172Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:05:09.8865217Z         \/      \/                  \/ 
+2026-04-13T21:05:09.8865280Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:05:09.8865315Z 
+2026-04-13T21:05:09.8865355Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:05:09.8865395Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:05:09.8865430Z Python version   : 3.11.14
+2026-04-13T21:05:09.8865466Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:05:09.8865525Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:05:09.8865560Z 
+2026-04-13T21:05:09.8865596Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:05:16.6587908Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:05:16.6894604Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:05:16.8875820Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:06:07.7579343Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:06:07.7780719Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:06:07.7781232Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:06:08.1028477Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:06:08.3173057Z 4 added, 0 removed; done.
+2026-04-13T21:06:08.3173878Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:06:08.4121466Z done.
+2026-04-13T21:06:08.4927494Z CA certificates copied and updated successfully.
+2026-04-13T21:06:09.1226168Z Site's appCommandLine: pip install -r /home/site/wwwroot/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:06:10.6110246Z Starting periodic command scheduler: cron.
+2026-04-13T21:06:10.6110956Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'pip install -r /home/site/wwwroot/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:06:12.4225882Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:06:12.4226427Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:06:12.4226479Z Build Operation ID: f73567a3-3a9b-4847-aa2b-1a5f44692f31
+2026-04-13T21:06:16.2821867Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:06:16.3634796Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:06:17.6935263Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:06:17.6935857Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:06:30.1953904Z 
+2026-04-13T21:06:30.1954570Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-04-13T21:06:30.1954678Z [notice] To update, run: pip install --upgrade pip
+2026-04-13T21:06:30.2875935Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/home/site/wwwroot/requirements.txt'
+2026-04-13T21:06:42.7089131Z    _____                               
+2026-04-13T21:06:42.7089630Z   /  _  \ __________ _________   ____  
+2026-04-13T21:06:42.7089702Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:06:42.7089755Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:06:42.7089804Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:06:42.7089852Z         \/      \/                  \/ 
+2026-04-13T21:06:42.7089901Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:06:42.7089950Z 
+2026-04-13T21:06:42.7090002Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:06:42.7090053Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:06:42.7090102Z Python version   : 3.11.14
+2026-04-13T21:06:42.7090246Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:06:42.7090304Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:06:42.7090350Z 
+2026-04-13T21:06:42.7090401Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:06:44.6128943Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:06:44.6445599Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:06:44.7960092Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:07:31.0981266Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:07:31.1252247Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:07:31.1252668Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:07:31.1751066Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:07:31.4716737Z 4 added, 0 removed; done.
+2026-04-13T21:07:31.4717497Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:07:31.5096588Z done.
+2026-04-13T21:07:31.5803934Z CA certificates copied and updated successfully.
+2026-04-13T21:07:32.1884716Z Site's appCommandLine: pip install -r /home/site/wwwroot/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:07:34.4281586Z Starting periodic command scheduler: cron.
+2026-04-13T21:07:34.4282127Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'pip install -r /home/site/wwwroot/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:07:34.6278097Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:07:34.6278759Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:07:34.6278809Z Build Operation ID: dda828d4-e246-40bd-851b-615726bef824
+2026-04-13T21:07:36.9211400Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:07:37.1237483Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:07:37.6313238Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:07:37.6313642Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:07:56.9042878Z 
+2026-04-13T21:07:56.9227593Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-04-13T21:07:56.9227895Z [notice] To update, run: pip install --upgrade pip
+2026-04-13T21:07:56.9228749Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/home/site/wwwroot/requirements.txt'
+2026-04-13T21:12:55.1246152Z    _____                               
+2026-04-13T21:12:55.1255269Z   /  _  \ __________ _________   ____  
+2026-04-13T21:12:55.1255436Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:12:55.1255478Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:12:55.1255515Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:12:55.1255549Z         \/      \/                  \/ 
+2026-04-13T21:12:55.1255619Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:12:55.1255655Z 
+2026-04-13T21:12:55.1255693Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:12:55.1255729Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:12:55.1255770Z Python version   : 3.11.14
+2026-04-13T21:12:55.1255806Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:12:55.1255848Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:12:55.1255907Z 
+2026-04-13T21:12:55.1255943Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:13:06.9450524Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:13:06.9857434Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:13:07.2754464Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:14:18.3283603Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:14:18.3471230Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:14:18.3779997Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:14:18.4561160Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:14:18.6394088Z 4 added, 0 removed; done.
+2026-04-13T21:14:18.6503377Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:14:18.6886508Z done.
+2026-04-13T21:14:18.7562235Z CA certificates copied and updated successfully.
+2026-04-13T21:14:19.2718565Z Site's appCommandLine: pip install -r /home/site/wwwroot/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:14:20.6987257Z Starting periodic command scheduler: cron.
+2026-04-13T21:14:20.7186091Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'pip install -r /home/site/wwwroot/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:14:21.3339019Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:14:21.3349426Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:14:21.3358560Z Build Operation ID: a0dc64ba-4571-43a7-9b2a-7db02d76064c
+2026-04-13T21:14:22.9808021Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:14:23.2436603Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:14:23.4538461Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:14:23.4737718Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:14:46.1360823Z 
+2026-04-13T21:14:46.1361574Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-04-13T21:14:46.1361636Z [notice] To update, run: pip install --upgrade pip
+2026-04-13T21:14:46.1361678Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/home/site/wwwroot/requirements.txt'
+2026-04-13T21:16:33.1511610Z    _____                               
+2026-04-13T21:16:33.1515135Z   /  _  \ __________ _________   ____  
+2026-04-13T21:16:33.1515201Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:16:33.1515238Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:16:33.1515273Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:16:33.1515316Z         \/      \/                  \/ 
+2026-04-13T21:16:33.1515388Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:16:33.1515422Z 
+2026-04-13T21:16:33.1515461Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:16:33.1515500Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:16:33.1515536Z Python version   : 3.11.14
+2026-04-13T21:16:33.1515576Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:16:33.1515644Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:16:33.1515679Z 
+2026-04-13T21:16:33.1515714Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:16:40.1254631Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:16:40.1571616Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:16:40.3566912Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:18:13.1405089Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:18:13.1832841Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:18:13.3834039Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:18:13.6838371Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:18:14.0624814Z 4 added, 0 removed; done.
+2026-04-13T21:18:14.0893284Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:18:14.1206181Z done.
+2026-04-13T21:18:14.2517251Z CA certificates copied and updated successfully.
+2026-04-13T21:18:15.3914551Z Site's appCommandLine: pip install -r /home/site/wwwroot/backend/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:18:17.8531842Z Starting periodic command scheduler: cron.
+2026-04-13T21:18:17.9871224Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'pip install -r /home/site/wwwroot/backend/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:18:18.9646626Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:18:18.9647317Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:18:18.9647374Z Build Operation ID: e4708271-96a8-48c7-8d21-e3b786c18b10
+2026-04-13T21:18:25.0808189Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:18:27.8286848Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:18:28.6007749Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:18:28.6630647Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:19:00.5756954Z 
+2026-04-13T21:19:00.5757783Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-04-13T21:19:00.5757888Z [notice] To update, run: pip install --upgrade pip
+2026-04-13T21:19:00.5929857Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/home/site/wwwroot/backend/requirements.txt'
+2026-04-13T21:21:24.8515319Z    _____                               
+2026-04-13T21:21:24.8516100Z   /  _  \ __________ _________   ____  
+2026-04-13T21:21:24.8516138Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:21:24.8516166Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:21:24.8516193Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:21:24.8516221Z         \/      \/                  \/ 
+2026-04-13T21:21:24.8516248Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:21:24.8516275Z 
+2026-04-13T21:21:24.8516304Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:21:24.8516378Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:21:24.8516408Z Python version   : 3.11.14
+2026-04-13T21:21:24.8516471Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:21:24.8516504Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:21:24.8516530Z 
+2026-04-13T21:21:24.8516559Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:21:30.6089655Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:21:30.6598362Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:21:30.9708653Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:23:10.1551555Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:23:10.2478079Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:23:10.2684365Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:23:10.6270384Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:23:10.9267860Z 4 added, 0 removed; done.
+2026-04-13T21:23:11.2259089Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:23:11.3941770Z done.
+2026-04-13T21:23:11.4933078Z CA certificates copied and updated successfully.
+2026-04-13T21:23:12.3820623Z Site's appCommandLine: pip install -r /home/site/wwwroot/backend/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:23:16.0561038Z Starting periodic command scheduler: cron.
+2026-04-13T21:23:16.1361659Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'pip install -r /home/site/wwwroot/backend/requirements.txt && cd /home/site/wwwroot/backend && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:23:17.9840286Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:23:17.9840953Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:23:17.9841023Z Build Operation ID: 56c3eff7-c3a7-4f06-a6f4-5e683955554b
+2026-04-13T21:23:22.0973808Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:23:22.2370152Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:23:22.9475119Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:23:22.9475818Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:23:58.4467802Z 
+2026-04-13T21:23:58.4468438Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-04-13T21:23:58.4468480Z [notice] To update, run: pip install --upgrade pip
+2026-04-13T21:23:58.4468515Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/home/site/wwwroot/backend/requirements.txt'
+2026-04-13T21:25:02.4758170Z    _____                               
+2026-04-13T21:25:02.4759854Z   /  _  \ __________ _________   ____  
+2026-04-13T21:25:02.4760058Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:25:02.4760103Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:25:02.4760174Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:25:02.4760246Z         \/      \/                  \/ 
+2026-04-13T21:25:02.4760281Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:25:02.4760315Z 
+2026-04-13T21:25:02.4760358Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:25:02.4760398Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:25:02.4760452Z Python version   : 3.11.14
+2026-04-13T21:25:02.4760490Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:25:02.4760560Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:25:02.4760595Z 
+2026-04-13T21:25:02.4760630Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:25:10.6963616Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:25:10.7768230Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:25:11.1795678Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:26:50.7869832Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:26:50.8080213Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:26:50.8445106Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:26:51.2485444Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:26:51.6692371Z 4 added, 0 removed; done.
+2026-04-13T21:26:51.8378096Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:26:51.8867627Z done.
+2026-04-13T21:26:52.0071669Z CA certificates copied and updated successfully.
+2026-04-13T21:26:52.5419191Z Site's appCommandLine: pip install -r requirements.txt && python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:26:55.6265300Z Starting periodic command scheduler: cron.
+2026-04-13T21:26:55.6568337Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'pip install -r requirements.txt && python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:26:56.2221316Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-04-13T21:26:56.2615816Z Could not find operation ID in manifest. Generating an operation id...
+2026-04-13T21:26:56.3485423Z Build Operation ID: 51cd5b75-1e4a-4675-8655-dacbf97d81ef
+2026-04-13T21:26:58.8514059Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:26:59.0562489Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:26:59.4149004Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2026-04-13T21:26:59.4149434Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2026-04-13T21:27:54.3003866Z 
+2026-04-13T21:27:54.3004550Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-04-13T21:27:54.3004658Z [notice] To update, run: pip install --upgrade pip
+2026-04-13T21:27:54.3004730Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+2026-04-13T21:39:44.0704328Z    _____                               
+2026-04-13T21:39:44.0725893Z   /  _  \ __________ _________   ____  
+2026-04-13T21:39:44.0726108Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-04-13T21:39:44.0726147Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-04-13T21:39:44.0726184Z \____|__  /_____ \____/ |__|    \___  >
+2026-04-13T21:39:44.0726256Z         \/      \/                  \/ 
+2026-04-13T21:39:44.0726294Z A P P   S E R V I C E   O N   L I N U X
+2026-04-13T21:39:44.0823160Z 
+2026-04-13T21:39:44.0823280Z Documentation    : http://aka.ms/webapp-linux
+2026-04-13T21:39:44.0823340Z Python quickstart: https://aka.ms/python-qs
+2026-04-13T21:39:44.0823377Z Python version   : 3.11.14
+2026-04-13T21:39:44.0823417Z Instance Name    : lw1sdlwk000ADX
+2026-04-13T21:39:44.0823500Z Instance Id      : 9bb9f0554f0c463b59fd148cdf25b4d51f5ede7faac6e226d8dc43a2d7d7704d
+2026-04-13T21:39:44.0823536Z 
+2026-04-13T21:39:44.0823572Z Note: Any data outside '/home' is not persisted
+2026-04-13T21:39:46.3873875Z Starting OpenBSD Secure Shell server: sshd.
+2026-04-13T21:39:46.4452410Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-04-13T21:39:46.6477839Z Updating certificates in /etc/ssl/certs...
+2026-04-13T21:40:31.3388543Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_R46.pem
+2026-04-13T21:40:31.3485395Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-04-13T21:40:31.3990406Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-04-13T21:40:31.4594643Z rehash: warning: skipping duplicate certificate in azl_Sectigo_Public_Server_Authentication_Root_E46.pem
+2026-04-13T21:40:31.5362396Z 4 added, 0 removed; done.
+2026-04-13T21:40:31.5363224Z Running hooks in /etc/ca-certificates/update.d...
+2026-04-13T21:40:31.5776695Z done.
+2026-04-13T21:40:31.6170422Z CA certificates copied and updated successfully.
+2026-04-13T21:40:31.9805471Z Site's appCommandLine: python -m uvicorn api:app --host 0.0.0.0 --port 8000
+2026-04-13T21:40:32.9712697Z Starting periodic command scheduler: cron.
+2026-04-13T21:40:32.9713857Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python -m uvicorn api:app --host 0.0.0.0 --port 8000'
+2026-04-13T21:40:33.6013631Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2026-04-13T21:40:33.6523637Z Build Operation ID: 8b7af033cadd30e8
+2026-04-13T21:40:33.6802688Z Oryx Version: 0.2.20260130.1, Commit: a98e9aef5dfb6572a08b0a07ce414e1122ab4a2e, ReleaseTagName: 20260130.1
+2026-04-13T21:40:33.6803732Z Output is compressed. Extracting it...
+2026-04-13T21:40:33.6821478Z Found zstd-compressed tarball.
+2026-04-13T21:40:33.7020045Z Extracting '/home/site/wwwroot/output.tar.zst' to directory '/tmp/8de99a147d1a720'...
+2026-04-13T21:40:33.7020386Z Using zstd for decompression of file: /home/site/wwwroot/output.tar.zst
+2026-04-13T21:41:09.0284678Z zstd tar Successfully extracted '/home/site/wwwroot/output.tar.zst' to '/tmp/8de99a147d1a720'
+2026-04-13T21:41:09.0453448Z App path is set to '/tmp/8de99a147d1a720'
+2026-04-13T21:41:09.0840229Z Writing output script to '/opt/startup/startup.sh'
+2026-04-13T21:41:09.3794938Z Using packages from virtual environment antenv located at /tmp/8de99a147d1a720/antenv.
+2026-04-13T21:41:09.3799723Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8de99a147d1a720/antenv/lib/python3.11/site-packages'
+2026-04-13T21:41:10.5770320Z ERROR:    Error loading ASGI app. Could not import module "api".
