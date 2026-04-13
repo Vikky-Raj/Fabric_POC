@@ -28,6 +28,12 @@ Thumbs.db
 backend/output/
 backend/uploads/
 
+# Deploy artifacts
+deploy.zip
+deploy_flat.zip
+logs.zip
+logs/
+
 # Node / Frontend
 node_modules/
 frontend/node_modules/
